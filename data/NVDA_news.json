@@ -1,0 +1,679 @@
+[
+  {
+    "id": "03fd45c4-5814-4a98-b19f-0f88e8198d22",
+    "content": {
+      "id": "03fd45c4-5814-4a98-b19f-0f88e8198d22",
+      "contentType": "VIDEO",
+      "title": "Frontier AI developers must be 'liable for the things their products do': Autodesk CEO",
+      "description": "<p>Discourse has been circulating recently on AI safety, fears, and regulation, with commentary from Nvidia (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/NVDA/\" data-i13n=\"cpos:1;pos:1\">NVDA</a>) CEO Jensen Huang, Anthropic (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/ANTH.PVT/\" data-i13n=\"cpos:2;pos:1\">ANTH.PVT</a>) CEO Dario Amodei, and even President Trump.</p>\n<p>Autodesk (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/ADSK/\" data-i13n=\"cpos:3;pos:1\">ADSK</a>) president and CEO Andrew Anagnost sits down with Market Catalysts host Julie Hyman to share his thoughts on the importance of holding Big Tech accountable.</p>",
+      "summary": "Discourse has been circulating recently on AI safety, fears, and regulation, with commentary from Nvidia (NVDA) CEO Jensen Huang, Anthropic (ANTH.PVT) CEO Dario Amodei, and even President Trump. Autodesk (ADSK) president and CEO Andrew Anagnost sits down with Market Catalysts host Julie Hyman to share his thoughts on the importance of holding Big Tech accountable.",
+      "pubDate": "2026-09-16T15:09:55Z",
+      "displayTime": "",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/uu/api/res/1.2/nAssQl2Bt_7vF.X4NLLV_Q--~B/aD03Njc7dz0xMzY0O2FwcGlkPXl0YWNoeW9u/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/chatgpt-image-sep-16-2026-11-07-56-am_6933.png_6baf05bf52e7957de111d94c9adcd03f7bb3609d7cb8ab03029a84ffa76da0e5.png",
+        "originalWidth": 1364,
+        "originalHeight": 767,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/nAssQl2Bt_7vF.X4NLLV_Q--~B/aD03Njc7dz0xMzY0O2FwcGlkPXl0YWNoeW9u/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/chatgpt-image-sep-16-2026-11-07-56-am_6933.png_6baf05bf52e7957de111d94c9adcd03f7bb3609d7cb8ab03029a84ffa76da0e5.png",
+            "width": 1364,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/leUCeL3_X8Vu94kJej1FyQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/chatgpt-image-sep-16-2026-11-07-56-am_6933.png_6baf05bf52e7957de111d94c9adcd03f7bb3609d7cb8ab03029a84ffa76da0e5.png",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/",
+        "sourceId": "video.yahoofinance.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/video/frontier-ai-developers-must-liable-150955074.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/video/frontier-ai-developers-must-liable-150955074.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": {
+        "storylineItems": [
+          {
+            "content": {
+              "id": "14bae1ab-d36c-4317-85ab-8c085273348f",
+              "contentType": "VIDEO",
+              "isHosted": true,
+              "title": "Amodei and Huang lay out paths for AI: \u2018Set standards\u2019 or \u2018pace yourself\u2019?",
+              "thumbnail": {
+                "originalUrl": "https://s.yimg.com/uu/api/res/1.2/4f8UNPUJF57kSW.fBbmHlQ--~B/aD0xMjA0O3c9MjE0MjthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/a0f836fb-6ac1-4950-97a2-2c7b0f105794_67b1071baf53ada8435b74c988e05f4397bfef395ff3db2077470796f0d49e80.jpg",
+                "originalWidth": 2142,
+                "originalHeight": 1204,
+                "caption": "",
+                "resolutions": null
+              },
+              "provider": {
+                "displayName": "Yahoo Finance Video",
+                "sourceId": "video.yahoofinance.com"
+              },
+              "previewUrl": null,
+              "providerContentUrl": "",
+              "canonicalUrl": {
+                "url": "https://finance.yahoo.com/video/amodei-huang-lay-paths-ai-135114535.html"
+              },
+              "clickThroughUrl": {
+                "url": "https://finance.yahoo.com/video/amodei-huang-lay-paths-ai-135114535.html"
+              }
+            }
+          },
+          {
+            "content": {
+              "id": "3726808e-cd14-482a-bb0a-a34cfff245d1",
+              "contentType": "STORY",
+              "isHosted": true,
+              "title": "AI will not wipe out humanity, Nvidia-backed tech CEO declares",
+              "thumbnail": {
+                "originalUrl": "https://s.yimg.com/uu/api/res/1.2/34RmP9IpDVIowdIKcZ6imQ--~B/aD0yNDU2O3c9MzY5NjthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-09/a13d6acc-c9cd-4ff2-ae16-4bdf34c2245b",
+                "originalWidth": 3696,
+                "originalHeight": 2456,
+                "caption": "",
+                "resolutions": null
+              },
+              "provider": {
+                "displayName": "Yahoo Finance",
+                "sourceId": "yahoofinance.com"
+              },
+              "previewUrl": null,
+              "providerContentUrl": "",
+              "canonicalUrl": {
+                "url": "https://finance.yahoo.com/technology/article/ai-will-not-wipe-out-humanity-nvidia-backed-tech-ceo-declares-094409313.html"
+              },
+              "clickThroughUrl": {
+                "url": "https://finance.yahoo.com/technology/article/ai-will-not-wipe-out-humanity-nvidia-backed-tech-ceo-declares-094409313.html"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "f8487216-ffda-3da2-a123-55d9aced9e6b",
+    "content": {
+      "id": "f8487216-ffda-3da2-a123-55d9aced9e6b",
+      "contentType": "STORY",
+      "title": "Old, New, Borrowed & Blue, Vol. 11",
+      "description": "",
+      "summary": "This episode's hodgepodge theme is something old, something new, something borrowed, something blue.",
+      "pubDate": "2026-09-17T03:20:22Z",
+      "displayTime": "2026-09-17T03:20:22Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/3ab654f5734c912254b589a711f264d2.jpg",
+        "originalWidth": 800,
+        "originalHeight": 450,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/VBQmUiHNVHr5e8_mO6164g--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/3ab654f5734c912254b589a711f264d2.jpg",
+            "width": 800,
+            "height": 450,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/xAuNg7FDcDKcv.XyQ6qgKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/3ab654f5734c912254b589a711f264d2.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/",
+        "sourceId": "motleyfool.com"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/09/16/old-new-borrowed-blue-vol-11/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/old-borrowed-blue-vol-11-032022459.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "8a2e035c-9bf3-3c27-92e5-877a3ea9d362",
+    "content": {
+      "id": "8a2e035c-9bf3-3c27-92e5-877a3ea9d362",
+      "contentType": "STORY",
+      "title": "NBIS Stock Rallies As Neocloud Operator Hikes Prices; Peers IREN, CRWV Jump As Well",
+      "description": "",
+      "summary": "The move points to robust AI infrastructure demand as operators expand capacity.",
+      "pubDate": "2026-09-17T03:10:55Z",
+      "displayTime": "2026-09-17T03:10:55Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/stocktwits_383/d4abf9e52125c2a53dc149ba9037aba7",
+        "originalWidth": 1280,
+        "originalHeight": 853,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/2FhNCMtrzm5Tkgod_q74cA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/d4abf9e52125c2a53dc149ba9037aba7",
+            "width": 1280,
+            "height": 853,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/R9AEeN_oHRlmPynOCa.U9A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stocktwits_383/d4abf9e52125c2a53dc149ba9037aba7",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Stocktwits",
+        "url": "Stocktwits",
+        "sourceId": "stocktwits_383"
+      },
+      "canonicalUrl": {
+        "url": "https://stocktwits.com/news-articles/markets/equity/nbis-stock-rallies-as-neocloud-operator-hikes-prices-peers-iren-crwv-jump-as-well/cZtrBwmRB5R",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nbis-stock-rallies-neocloud-operator-031055938.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "4e747020-c7a8-3ddd-83c1-7d12617fda55",
+    "content": {
+      "id": "4e747020-c7a8-3ddd-83c1-7d12617fda55",
+      "contentType": "STORY",
+      "title": "2 Midstream Dividend Stocks Nobody's Talking About Right Now",
+      "description": "",
+      "summary": "If you are looking for high-yield stocks, consider stepping beyond the \"obvious\" names in the midstream sector.",
+      "pubDate": "2026-09-17T02:35:00Z",
+      "displayTime": "2026-09-17T02:35:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/067a1bf0c3dafd5d3c9197d3ed669a13.jpg",
+        "originalWidth": 1400,
+        "originalHeight": 933,
+        "caption": "A person in protective gear welding an energy pipeline.",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/_Y2ZeoCbn.1R_pbhGgYmEA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/067a1bf0c3dafd5d3c9197d3ed669a13.jpg",
+            "width": 1400,
+            "height": 933,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/mwXBTzk.MfEdAwyxVuSiHA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/067a1bf0c3dafd5d3c9197d3ed669a13.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/",
+        "sourceId": "motleyfool.com"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/09/16/2-midstream-dividend-stocks-nobodys-talking-about/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/energy/articles/2-midstream-dividend-stocks-nobodys-023500381.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "02183d96-6103-30f1-bb69-4f63b6fab7f1",
+    "content": {
+      "id": "02183d96-6103-30f1-bb69-4f63b6fab7f1",
+      "contentType": "STORY",
+      "title": "Why Forgent Power Stock Keeps Going Up",
+      "description": "",
+      "summary": "The electrical infrastructure builder could be your way to profit from the AI race.",
+      "pubDate": "2026-09-17T01:50:07Z",
+      "displayTime": "2026-09-17T01:50:07Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/678e5ec6a665e398ffef9b4fd58a6f83.jpg",
+        "originalWidth": 1400,
+        "originalHeight": 787,
+        "caption": "A person is smiling while working in an AI data center. ",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/pDoDPiVctbOPgNQ04xJAGA--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/678e5ec6a665e398ffef9b4fd58a6f83.jpg",
+            "width": 1400,
+            "height": 787,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/lMsj3NMgK76izoIyP.PYJQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/678e5ec6a665e398ffef9b4fd58a6f83.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/",
+        "sourceId": "motleyfool.com"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/09/16/why-forgent-power-stock-keeps-going-up/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-forgent-power-stock-keeps-015007577.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "59948a60-e367-3020-8595-45366b2e69c0",
+    "content": {
+      "id": "59948a60-e367-3020-8595-45366b2e69c0",
+      "contentType": "STORY",
+      "title": "Micron vs. Sandisk: Which AI Memory Stock Benefits More From Nvidia's $279 Billion Warning?",
+      "description": "",
+      "summary": "Memory has become a binding constraint for artificial intelligence (AI) data center build-outs.",
+      "pubDate": "2026-09-17T01:41:00Z",
+      "displayTime": "2026-09-17T01:41:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/1bf500999071cd5b6cfbb5371714657c.jpg",
+        "originalWidth": 1400,
+        "originalHeight": 933,
+        "caption": "Person looking at computer.",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/M2CajCB2HwVeHhZGLtl2Bw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/1bf500999071cd5b6cfbb5371714657c.jpg",
+            "width": 1400,
+            "height": 933,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/wioVTh1gqhLmzMaegmw6hw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/1bf500999071cd5b6cfbb5371714657c.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/",
+        "sourceId": "motleyfool.com"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/09/16/micron-vs-sandisk-which-ai-memory-stock-benefits/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-ai-memory-014100496.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "08765731-5ce0-3e2a-bd47-7d1a5992d267",
+    "content": {
+      "id": "08765731-5ce0-3e2a-bd47-7d1a5992d267",
+      "contentType": "STORY",
+      "title": "Vistra vs. Constellation vs. Talen Energy: Which Nuclear-Heavy Stock Is the Better AI-Power Bet?",
+      "description": "",
+      "summary": "AI data centers are driving enormous demand for reliable, around-the-clock electricity, and these companies provide it.",
+      "pubDate": "2026-09-17T01:25:00Z",
+      "displayTime": "2026-09-17T01:25:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/154f70562b5875430293a97f54a04801.jpg",
+        "originalWidth": 1400,
+        "originalHeight": 933,
+        "caption": "A person in a hard hat at a power plant looks at a cooling tower in the background. ",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/.5GiSKzm3AytTIGebN0u1A--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/154f70562b5875430293a97f54a04801.jpg",
+            "width": 1400,
+            "height": 933,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Yo8kwzpbwm3ji7rmcxW2dQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/154f70562b5875430293a97f54a04801.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/",
+        "sourceId": "motleyfool.com"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/09/16/vistra-vs-constellation-vs-talen-energy-which-nucl/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/energy/articles/vistra-vs-constellation-vs-talen-012500911.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "ef111e80-b6a3-37ce-beca-b89b46da1e3b",
+    "content": {
+      "id": "ef111e80-b6a3-37ce-beca-b89b46da1e3b",
+      "contentType": "STORY",
+      "title": "This Ethereum Treasury Company Is Close to Owning 5% of All ETH in Circulation. Does That Make It a Buy?",
+      "description": "",
+      "summary": "BitMine continues to buy Ethereum at a rapid clip, but where's the payoff for investors?",
+      "pubDate": "2026-09-17T01:01:00Z",
+      "displayTime": "2026-09-17T01:01:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/3e5115867eada65d841253c1d4378206.jpg",
+        "originalWidth": 1400,
+        "originalHeight": 831,
+        "caption": "Investor analyzing Ethereum on a tablet.",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/QJE4ETED8YoRsEAuhO8qsQ--~B/aD04MzE7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/3e5115867eada65d841253c1d4378206.jpg",
+            "width": 1400,
+            "height": 831,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/JPr0MEHRc1bm9W_y3jaeJw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/3e5115867eada65d841253c1d4378206.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/",
+        "sourceId": "motleyfool.com"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/09/16/is-this-ethereum-treasury-company-a-buy/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-treasury-company-close-owning-010100563.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "3a108b7c-89df-35cb-88ed-b18e2b318eeb",
+    "content": {
+      "id": "3a108b7c-89df-35cb-88ed-b18e2b318eeb",
+      "contentType": "STORY",
+      "title": "More Than a Quarter of Nvidia's Revenue Now Comes From Customers Based in Taiwan. Should Investors Be Worried?",
+      "description": "",
+      "summary": "The second-biggest line in the chip giant's latest filing likely belongs to companies buying for someone else.",
+      "pubDate": "2026-09-17T00:54:01Z",
+      "displayTime": "2026-09-17T00:54:01Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/4807d7979d114e5e5701122b50c1cb4b.png",
+        "originalWidth": 1400,
+        "originalHeight": 840,
+        "caption": "Green industrial robotic arm beside a conveyor belt in an automated factory.",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Yf.d0f.dYw.xYX27Nq6YlQ--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4807d7979d114e5e5701122b50c1cb4b.png",
+            "width": 1400,
+            "height": 840,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Of.MdXIiHdSQYt_pDVSQ2g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/4807d7979d114e5e5701122b50c1cb4b.png",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/",
+        "sourceId": "motleyfool.com"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/09/16/more-than-a-quarter-of-nvidia-s-revenue-now-comes-from-customers-based-in-taiwan-should-investors-be-worried/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/more-quarter-nvidias-revenue-now-005401979.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "462ecfa4-8398-3586-b491-c5edd9f04d9a",
+    "content": {
+      "id": "462ecfa4-8398-3586-b491-c5edd9f04d9a",
+      "contentType": "STORY",
+      "title": "Is It Too Early To Buy Marvell Stock After Its Three-Month Fall?",
+      "description": "",
+      "summary": "Marvell Technology (MRVL) has more than tripled over the past year. It has also fallen about 28% in three months and trades about 30% below its 52-week high. If you are wondering whether the growth story broke, it did not. Marvell raised its revenue guidance on August 27, 2026, and the stock fell anyway.",
+      "pubDate": "2026-09-17T00:51:58Z",
+      "displayTime": "2026-09-17T00:51:58Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/trefis_142/326f4f70d68e9eceba6f8161f01b98dd.jpg",
+        "originalWidth": 1280,
+        "originalHeight": 1265,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/D4WjgzuA9.zWFQEYsT49_g--~B/aD0xMjY1O3c9MTI4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/326f4f70d68e9eceba6f8161f01b98dd.jpg",
+            "width": 1280,
+            "height": 1265,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/vQwabXDWlX31RttxJEsvww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/trefis_142/326f4f70d68e9eceba6f8161f01b98dd.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Trefis",
+        "url": "https://www.trefis.com/",
+        "sourceId": "trefis_142"
+      },
+      "canonicalUrl": {
+        "url": "https://www.trefis.com/articles/615545/is-it-too-early-to-buy-marvell-stock-after-its-three-month-fall/2026-09-16",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/too-early-buy-marvell-stock-005158674.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  }
+]

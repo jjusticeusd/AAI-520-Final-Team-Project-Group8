@@ -16,14 +16,18 @@ Times in PDT. Canvas stores them in UTC.
 
 | Date | Deliverable | Who submits |
 | --- | --- | --- |
+| Mon Sep 21, 11:59 PM | Module 3 Check-In (5 pts) | external tool |
+| Mon Sep 28, 11:59 PM | Module 4 Check-In (5 pts) | external tool |
 | Mon Sep 28, 11:59 PM | Team Assignment 4.2: Project Status Update Form (10 pts) | one member |
+| Mon Oct 5, 11:59 PM | Module 5 Check-In (5 pts) | external tool |
+| Mon Oct 12, 11:59 PM | Module 6 Check-In (5 pts) | external tool |
 | Mon Oct 19, 11:59 PM | **Final Code Notebook as PDF** (355 pts) | one member |
 | Mon Oct 19, 11:59 PM | Assignment 7.1: Peer Evaluation Form (45 pts) | each member individually |
 
 **No extensions are given. Work submitted after Oct 19 is not graded.**
 
-The Module 3-7 check-in assignments are ungraded progress posts, but they are a
-useful weekly forcing function.
+The four check-ins are worth 5 points each, 20 points total. They are graded,
+not optional progress notes.
 
 ---
 
@@ -47,7 +51,7 @@ useful weekly forcing function.
 src/
   investment_research_agent.ipynb   # the graded deliverable
   scratch/                          # per-person working notebooks, not submitted
-data/                               # cached yfinance responses, memory JSON
+data/                               # cached yfinance responses (committed); memory.json (ignored)
 schedule.md
 README.md
 pyproject.toml
@@ -150,9 +154,21 @@ Goal: repo is workable, both members can run a local LLM, data source proven.
 | 1.7 | Pick the demo watchlist (3 tickers, ideally with recent earnings) | - |  |
 | 1.8 | Post Module 3 check-in | - |  |
 
-If task 1.5 shows Phi-3-mini generation above roughly 60 seconds per call,
-switch to Llama-3.2-1B and note it in the notebook. The Evaluator-Optimizer
-loop makes three or more calls per run.
+**1.5 result (jjustice, Apple silicon):** Phi-3-mini on MPS with bfloat16 runs
+at 15.3 tokens/sec, about 20 seconds for a 300-token generation. Model load is
+5 seconds once weights are cached, 77 seconds on the first cold load. That is
+fast enough for the Evaluator-Optimizer loop, so Phi-3-mini stays the primary
+model and the Llama-3.2-1B fallback is not needed. Load with
+`dtype=torch.bfloat16` and `.to("mps")`; the CPU float32 default is far slower.
+
+Record pwang's timing here too. If a machine has no MPS and comes in above
+roughly 60 seconds per call, that machine should use the fallback locally.
+
+**transformers 5.x note:** `uv sync` resolves transformers 5.17, one major
+version past the course labs. `apply_chat_template(..., return_tensors="pt")`
+now returns a `BatchEncoding`, not a tensor, so lab code calling
+`model.generate(ids, ...)` fails. Use `return_dict=True` and `generate(**enc)`.
+Expect similar small breakages when porting other lab snippets.
 
 ---
 
