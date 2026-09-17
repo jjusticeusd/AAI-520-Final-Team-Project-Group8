@@ -185,7 +185,7 @@ PEP 8 style. README required in the repo.
 
 ---
 
-## Week 1: Sep 16 - Sep 22 (Module 3 week)
+## Week 1: Sep 15 - Sep 21 (Module 3 week)
 
 **[UPDATED] Goal: workable repo, tested model, verified data fields, agreed interfaces, and assigned owners.**
 
@@ -209,7 +209,7 @@ PEP 8 style. README required in the repo.
 
 ---
 
-## Week 2: Sep 23 - Sep 29 (Module 4 week)
+## Week 2: Sep 22 - Sep 28 (Module 4 week)
 
 **[UPDATED] Goal: prompt chain runs end to end and is integrated; both members prepare the status form for the verified Module 4 deadline.**
 
@@ -232,7 +232,7 @@ PEP 8 style. README required in the repo.
 
 ---
 
-## Week 3: Sep 30 - Oct 6 (Module 5 week)
+## Week 3: Sep 29 - Oct 5 (Module 5 week)
 
 Goal: the agent plans, routes, and selects its own tools.
 
@@ -252,7 +252,7 @@ Goal: the agent plans, routes, and selects its own tools.
 
 ---
 
-## Week 4: Oct 7 - Oct 13 (Module 6 week)
+## Week 4: Oct 6 - Oct 12 (Module 6 week)
 
 **[UPDATED] Goal: complete self-reflection, feedback-driven refinement, and learning across runs. These support separate rubric requirements; the rubric does not assign a fixed independent score to each function.**
 
@@ -276,7 +276,7 @@ Goal: the agent plans, routes, and selects its own tools.
 
 ---
 
-## Week 5: Oct 14 - Oct 19 (Module 7 week) - FINAL
+## Week 5: Oct 13 - Oct 19 (Module 7 week) - FINAL
 
 Goal: integrate, document, export, submit. No new features after Oct 16.
 
