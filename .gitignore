@@ -230,3 +230,5 @@ data/memory.json
 
 .vscode
 .vscode/*
+
+.claude/
