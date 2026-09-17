@@ -218,5 +218,17 @@ __marimo__/
 .streamlit/secrets.toml
 
 # uv
+# uv.lock is deliberately not ignored: it pins exact versions for every
+# teammate, and init.sh depends on it.
 .venv
-uv.lock
+
+# The yfinance cache in data/ IS committed: Yahoo's news feed changes daily, so
+# a committed cache is what makes the notebook's saved outputs reproducible.
+# Agent memory is excluded because a pre-seeded file would invalidate the
+# "learns across runs" demonstration.
+data/memory.json
+
+.vscode
+.vscode/*
+
+.claude/

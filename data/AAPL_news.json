@@ -1,0 +1,565 @@
+[
+  {
+    "id": "c3b884fd-fca1-39ea-a847-4f977546401b",
+    "content": {
+      "id": "c3b884fd-fca1-39ea-a847-4f977546401b",
+      "contentType": "STORY",
+      "title": "Did AI Servers Really Quadruple Dell Stock?",
+      "description": "",
+      "summary": "Dell Technologies (DELL) stock has returned 334% over the past year, against 16% for the S&P 500. The easy explanation is AI orders, but it is incomplete. The bigger change is what happened to the rest of Dell.",
+      "pubDate": "2026-09-17T01:01:09Z",
+      "displayTime": "2026-09-17T01:01:09Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/trefis_142/e105eb3be0bf5179099a86144d95cb2a.png",
+        "originalWidth": 1280,
+        "originalHeight": 1083,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/mOGPJ.eP89_QuAsZpxmXOw--~B/aD0xMDgzO3c9MTI4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/e105eb3be0bf5179099a86144d95cb2a.png",
+            "width": 1280,
+            "height": 1083,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/khum44n7fhcc7Af6vsolrA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/trefis_142/e105eb3be0bf5179099a86144d95cb2a.png",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Trefis",
+        "url": "https://www.trefis.com/",
+        "sourceId": "trefis_142"
+      },
+      "canonicalUrl": {
+        "url": "https://www.trefis.com/articles/615541/did-ai-servers-really-quadruple-dell-stock/2026-09-16",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/did-ai-servers-really-quadruple-010109395.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "0e4b4b61-05d6-363f-904f-92d88c43735a",
+    "content": {
+      "id": "0e4b4b61-05d6-363f-904f-92d88c43735a",
+      "contentType": "STORY",
+      "title": "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses",
+      "description": "",
+      "summary": "Sept 16 (Reuters) - Snap on Wednesday announced partnerships with companies including Salesforce, Nvidia and Amazon Web Services to integrate workplace tools into its Specs augmented-reality glasses,",
+      "pubDate": "2026-09-16T23:45:12Z",
+      "displayTime": "2026-09-16T23:45:12Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/reuters.com/d6c0f5f60e9f69c905c758582d1df18b.jpg",
+        "originalWidth": 800,
+        "originalHeight": 540,
+        "caption": "FILE PHOTO: Snapchat logo is seen in this illustration taken July 28, 2022. REUTERS/Dado Ruvic/Illustration/File Photo",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/CKT_1AdOO.2Y8UhKJCGKag--~B/aD01NDA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/d6c0f5f60e9f69c905c758582d1df18b.jpg",
+            "width": 800,
+            "height": 540,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/zNxJ52H1BP23E2S4J_K_Yg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/d6c0f5f60e9f69c905c758582d1df18b.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Reuters",
+        "url": "https://www.reuters.com/",
+        "sourceId": "reuters.com"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/technology/ai/articles/snap-targets-enterprises-salesforce-nvidia-234512914.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/technology/ai/articles/snap-targets-enterprises-salesforce-nvidia-234512914.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "0bbeb01d-27ca-31bf-a84e-e28460eb4341",
+    "content": {
+      "id": "0bbeb01d-27ca-31bf-a84e-e28460eb4341",
+      "contentType": "STORY",
+      "title": "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Digest First Rate Hike Since 2023 \u2014 INTC, GOOGL, AAPL, SKHY, UAL In Focus",
+      "description": "",
+      "summary": "The U.S. Fed hiked rates by 25 basis points to 3.75%-4%.",
+      "pubDate": "2026-09-16T23:29:42Z",
+      "displayTime": "2026-09-16T23:29:42Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/stocktwits_383/2f5671490c3822979c0602b54482e89c.jpg",
+        "originalWidth": 1280,
+        "originalHeight": 853,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/BTMxiK_DgT7DbA1oN1hZ2g--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/2f5671490c3822979c0602b54482e89c.jpg",
+            "width": 1280,
+            "height": 853,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/JCvo65TurCbamAIH6IxjLg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stocktwits_383/2f5671490c3822979c0602b54482e89c.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Stocktwits",
+        "url": "Stocktwits",
+        "sourceId": "stocktwits_383"
+      },
+      "canonicalUrl": {
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-inch-higher-as-investors-digest-first-rate-hike-since-2023-intc-googl-aapl-skhy-ual-in-focus/cZtYUJsRBPu",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-futures-232942409.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "ebf656ea-14f8-3cb6-8ed4-56e40670652f",
+    "content": {
+      "id": "ebf656ea-14f8-3cb6-8ed4-56e40670652f",
+      "contentType": "STORY",
+      "title": "This Analyst Sees INTC Stock Hitting $200 In Two Years \u2014 That\u2019s A 106% Upside",
+      "description": "",
+      "summary": "Intel shares could double within two years, driven by potential manufacturing partnerships with tech giants and strong demand for AI chips.",
+      "pubDate": "2026-09-16T20:30:50Z",
+      "displayTime": "2026-09-16T20:30:50Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/stocktwits_383/ce3d0c65a84737fd8ccace33752b7cdd",
+        "originalWidth": 1280,
+        "originalHeight": 879,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/gvQ4Ie8dloKD1JCna4vCjA--~B/aD04Nzk7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/ce3d0c65a84737fd8ccace33752b7cdd",
+            "width": 1280,
+            "height": 879,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/TnbaIvocutdjniENsQdS0g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stocktwits_383/ce3d0c65a84737fd8ccace33752b7cdd",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Stocktwits",
+        "url": "Stocktwits",
+        "sourceId": "stocktwits_383"
+      },
+      "canonicalUrl": {
+        "url": "https://stocktwits.com/news-articles/markets/equity/this-analyst-sees-intc-stock-hitting-200-in-two-years-that-s-a-106-upside/cZtYtKFRBPp",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-sees-intc-stock-hitting-203050055.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "6fbdd134-f08f-3f50-a9ca-6ad473caab32",
+    "content": {
+      "id": "6fbdd134-f08f-3f50-a9ca-6ad473caab32",
+      "contentType": "STORY",
+      "title": "Apple may build AI servers with its own chips and Nvidia networking",
+      "description": "",
+      "summary": "A reported server project could push Apple's in-house silicon beyond its own devices and into enterprise computing.",
+      "pubDate": "2026-09-16T20:21:39Z",
+      "displayTime": "2026-09-16T20:21:39Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/",
+        "sourceId": "us.finance.gurufocus"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/technology/ai/articles/apple-may-build-ai-servers-202139274.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/technology/ai/articles/apple-may-build-ai-servers-202139274.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "1dbadf2b-3fe0-3340-b8bd-26e60da3e5a2",
+    "content": {
+      "id": "1dbadf2b-3fe0-3340-b8bd-26e60da3e5a2",
+      "contentType": "STORY",
+      "title": "Apple Talks to Nvidia About NVLink for Its Own AI Server",
+      "description": "",
+      "summary": "Apple is weighing two configurations, pairing two or four M8 Ultra chips",
+      "pubDate": "2026-09-16T20:20:58Z",
+      "displayTime": "2026-09-16T20:20:58Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "GuruFocus.com",
+        "url": "http://www.gurufocus.com/",
+        "sourceId": "us.finance.gurufocus"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/technology/ai/articles/apple-talks-nvidia-nvlink-own-202058186.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/technology/ai/articles/apple-talks-nvidia-nvlink-own-202058186.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "aa2f610a-9207-35d2-a2ba-2e8b2d3d92db",
+    "content": {
+      "id": "aa2f610a-9207-35d2-a2ba-2e8b2d3d92db",
+      "contentType": "STORY",
+      "title": "I've Analyzed Hundreds of Stocks in 7 Years. Here's My Step-by-Step System for Researching Any Company Before Buying.",
+      "description": "",
+      "summary": "I've been refining my investing process for years, and this is what I do right now.",
+      "pubDate": "2026-09-16T19:57:00Z",
+      "displayTime": "2026-09-16T19:57:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/motleyfool.com/2d2adcd271fe4b6a972ead5c9bf40b32.jpg",
+        "originalWidth": 1400,
+        "originalHeight": 934,
+        "caption": "Two investors sit side by side in front of laptops, with one holding papers while the other explains something.",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/rW77q5JRzTxOu3MFyeDp.w--~B/aD05MzQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2d2adcd271fe4b6a972ead5c9bf40b32.jpg",
+            "width": 1400,
+            "height": 934,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/u_JWdA_U2R0MNckG22jkKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/2d2adcd271fe4b6a972ead5c9bf40b32.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Motley Fool",
+        "url": "http://www.fool.com/",
+        "sourceId": "motleyfool.com"
+      },
+      "canonicalUrl": {
+        "url": "https://www.fool.com/investing/2026/09/16/my-step-by-step-system-for-researching-stocks/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ive-analyzed-hundreds-stocks-7-195700499.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "456b098e-93e7-3237-9bae-1efc9dd4b43c",
+    "content": {
+      "id": "456b098e-93e7-3237-9bae-1efc9dd4b43c",
+      "contentType": "STORY",
+      "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+      "description": "",
+      "summary": "Tech stocks were mixed late Wednesday afternoon, with the State Street Technology Select Sector SPDR",
+      "pubDate": "2026-09-16T19:53:24Z",
+      "displayTime": "2026-09-16T19:53:24Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": null,
+      "provider": {
+        "displayName": "MT Newswires",
+        "url": "https://www.mtnewswires.com/",
+        "sourceId": "mt_newswires_premium_news_706"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-mixed-afternoon-195324220.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-mixed-afternoon-195324220.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": true,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "3814e01c-4f93-300f-8908-2c8f44c6d33c",
+    "content": {
+      "id": "3814e01c-4f93-300f-8908-2c8f44c6d33c",
+      "contentType": "STORY",
+      "title": "The $75,000 Retirement Budget That JEPQ May Struggle to Support in 10 Years",
+      "description": "",
+      "summary": "A $700,000 JEPQ position clears a $75,000 retirement budget today, but inflation-adjusted withdrawals over a decade expose a flaw baked into the fund's design that monthly distributions alone cannot fix.",
+      "pubDate": "2026-09-16T19:30:21Z",
+      "displayTime": "2026-09-16T19:30:21Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/ebb72318a626353b0c969f29c5253f63.jpg",
+        "originalWidth": 1500,
+        "originalHeight": 923,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/YmnWTua43dwMgmEjQBnZnA--~B/aD05MjM7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/ebb72318a626353b0c969f29c5253f63.jpg",
+            "width": 1500,
+            "height": 923,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/fWgMsj8HkYooMck9BxRKrQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/ebb72318a626353b0c969f29c5253f63.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "24/7 Wall St.",
+        "url": "https://247wallst.com/",
+        "sourceId": "24_7_wall_st__718"
+      },
+      "canonicalUrl": {
+        "url": "https://247wallst.com/investing/etf/2026/09/16/the-75000-retirement-budget-that-jepq-may-struggle-to-support-in-10-years/",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/options/articles/75-000-retirement-budget-jepq-193021956.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "4901ca87-fb0e-3bd4-be13-40fbcb31a775",
+    "content": {
+      "id": "4901ca87-fb0e-3bd4-be13-40fbcb31a775",
+      "contentType": "STORY",
+      "title": "Should You Buy Qualcomm Stock For The Cash As Apple Leaves?",
+      "description": "",
+      "summary": "Qualcomm (QCOM) throws off free cash worth 5.2% of its market value each year, against 4.4% for the median S&P 500 company. A yield above the median means one of two things: a bargain or a business the market expects to shrink. Here it is mostly the second: the cash comes from smartphone chips, and Apple is leaving.",
+      "pubDate": "2026-09-16T19:30:04Z",
+      "displayTime": "2026-09-16T19:30:04Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/trefis_142/b873e06c110baeb7d29ba6df6ec3cafb.jpg",
+        "originalWidth": 1280,
+        "originalHeight": 721,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/2t.84SgVXd5fmWvr6SKQ6g--~B/aD03MjE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b873e06c110baeb7d29ba6df6ec3cafb.jpg",
+            "width": 1280,
+            "height": 721,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Et.jMiWN31n9pjLKgQVSEA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/trefis_142/b873e06c110baeb7d29ba6df6ec3cafb.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Trefis",
+        "url": "https://www.trefis.com/",
+        "sourceId": "trefis_142"
+      },
+      "canonicalUrl": {
+        "url": "https://www.trefis.com/articles/615530/should-you-buy-qualcomm-stock-for-the-cash-as-apple-leaves/2026-09-16",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/buy-qualcomm-stock-cash-apple-193004157.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  }
+]

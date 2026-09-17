@@ -2,7 +2,18 @@
 name = "aai-520-final-team-project-group8"
 version = "0.1.0"
 requires-python = ">=3.13,<3.14"
-dependencies = []
+dependencies = [
+    "accelerate",
+    "faiss-cpu",
+    "matplotlib",
+    "nltk",
+    "pandas",
+    "sentence-transformers",
+    "spacy",
+    "torch",
+    "transformers",
+    "yfinance",
+]
 
 [dependency-groups]
 dev = ["ipykernel"]
