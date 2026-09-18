@@ -44,10 +44,10 @@ Peng Wang (pwang) owns self-reflection, prompt chaining, evaluator–optimizer, 
 | AF1: Plans | jjustice | Ticker-specific generated plan and a trace linking research actions to that plan. |
 | AF2: Uses tools dynamically | jjustice; pwang supplies the news tool | Chosen tool, validated arguments, returned result, and examples of choices responding to different research needs or results. |
 | AF3: Self-reflects | pwang | Draft plus a structured critique identifying supported claims, unsupported claims, missing coverage, and limitations. |
-| AF4: Learns across runs | jjustice; pwang supplies useful critique notes | A saved lesson retrieved on a later run and a visible change in the plan, tool choice, or analysis caused by that lesson. |
+| AF4: Learns across runs | jjustice; consumes lesson notes returned by the review cycle | A saved lesson retrieved on a later run and a visible change in the plan, tool choice, or analysis caused by that lesson. |
 | WP1: Prompt chaining | pwang | Ingest → Preprocess → Classify → Extract → Summarize, with intermediate outputs passed between stages and displayed. |
 | WP2: Routing | jjustice; pwang supplies the news specialist | Executed earnings, news, and market examples showing route decisions and the selected specialist's output. |
-| WP3: Evaluator–optimizer | pwang; jjustice integrates it | Initial draft → actionable feedback → revised draft → re-evaluation, with a bounded stopping condition. |
+| WP3: Evaluator–optimizer | pwang owns the complete loop; jjustice calls it | Initial draft → actionable feedback → revised draft → re-evaluation, with a bounded stopping condition. |
 | News code and news commentary | pwang | Ingestion, source-preserving preprocessing, classification, extraction, summarization, and news examples. |
 | Market/earnings code and system integration | jjustice | Price/financial tools, specialists, planner, router, memory, and an integrated ticker-to-report run. |
 | Code quality and final submission | Both; jjustice coordinates integration/export | Readable PDF/HTML, useful comments/Markdown, relevant visualizations, working GitHub link, README, PEP 8, and contributions from both members. |
@@ -107,8 +107,10 @@ Concurrent edits to `.ipynb` files can cause difficult merge conflicts.
 - News records retain `article_id`, ticker/company, source, URL or dataset reference, publication/retrieval times when available, original text, cleaned text, and `text_type` (headline, summary, or full article). Record unavailable fields explicitly.
 - `run_news_chain(records)` returns stage outputs, source-linked extracted claims, the news summary, and a trace. jjustice's router invokes this same news specialist.
 - Every specialist returns a common result structure: findings, supporting source IDs, relevant dates/units, missing data, and limitations. The report assembler preserves those source links.
-- `evaluate_report(draft, evidence)` returns criterion scores, specific issues, feedback, and pass/fail; `refine_report(draft, feedback, evidence)` returns a revised draft. pwang owns both behaviors; jjustice supplies orchestration and specialist evidence.
+- `evaluate_report(draft, evidence)` returns criterion scores, specific issues, feedback, and pass/fail; `refine_report(draft, feedback, evidence)` returns a revised draft. pwang owns both behaviors and their iteration control; jjustice passes the assembled draft and specialist evidence.
+- `run_review_cycle(draft, evidence)` wraps evaluation, refinement, and re-evaluation and returns the final report, per-iteration drafts/critiques/scores, stopping status/reason, and source-aware lesson notes. jjustice calls this function and persists the returned lessons; individual iterations require no manual handoff.
 - Agree on these interfaces in Week 1; integrate the first news chain in Week 2. Emit concise decision records and observable results, rather than relying on an architecture diagram alone.
+- Use the agreed sample inputs and expected output structures for independent development. Discuss interface changes or blockers as they arise; review completed components at weekly integration.
 
 ---
 
@@ -197,7 +199,7 @@ Goal: workable repo, tested model, verified data fields, agreed interfaces, and 
 | 1.6 | Verify price/financial fields and news fields for one ticker; retain source metadata and an attributed demo snapshot; record whether text is a headline, summary, or full article | AF2 | jjustice: prices/financials; pwang: news |
 | 1.7 | Pick the demo ticker and optional three-ticker robustness watchlist | Demonstration scope | Both |
 | 1.8 | Complete Module 3 check-in under the verified Canvas instructions, before Monday's deadline | Course activity; verify | Both |
-| 1.9 | Agree on tool, specialist-output, evaluator, and memory-note interfaces; create one sample news record and report for integration | AF2, AF3, WP1–WP3 | Both |
+| 1.9 | Agree on tool, `llm(prompt)`, specialist-output, evaluator, and memory-note interfaces; create sample news records, a report with evidence, and expected output structures for independent development | AF2, AF3, WP1–WP3 | Both |
 
 Existing team-reported 1.5 result (jjustice, Apple silicon): Phi-3-mini on MPS with bfloat16 ran at 15.3 tokens/sec, approximately 20 seconds for 300 tokens; model load was 5 seconds with cached weights and 77 seconds on first load. Preserve this as a reported benchmark, not a guarantee for pwang's machine or all prompts.
 
@@ -219,7 +221,7 @@ Goal: prompt chain runs end to end and is integrated; both members prepare the s
 | 2.4 | Classify each item using a prompt that returns content category and sentiment with article IDs; optional BERT comparison | WP1 | pwang |
 | 2.5 | Extract structured claims using the classification output plus source text; retain company, metric, value/unit, date/period, source ID, and supporting spans when available | WP1 | pwang |
 | 2.6 | Summarize the extracted claims using their evidence; include source references and explicitly identify missing information | WP1 | pwang |
-| 2.7 | Wire all five stages together; display representative full inputs/intermediate outputs/final summary in the main notebook | WP1 acceptance check | pwang; jjustice reviews integration |
+| 2.7 | Wire all five stages together; display representative full inputs/intermediate outputs/final summary in the main notebook | WP1 acceptance check | pwang |
 | 2.8 | Fill and submit Team Assignment 4.2 Status Update Form with actual progress, contributions, blockers, and next steps | Module 4 submission | Both prepare; jjustice submits |
 | 2.9 | Complete Module 4 check-in under verified Canvas instructions | Course activity; verify | Both |
 | 2.10 | Prepare price/financial tools and report-assembly scaffolding; integrate Peng's news output using the shared schema | AF2, WP2, CD1 | jjustice |
@@ -242,7 +244,7 @@ Goal: the agent plans, routes, and selects its own tools.
 | 3.4 | Choose tool names/arguments from the research need and available results; validate calls and display contrasting choices | AF2 | jjustice |
 | 3.5 | Router dispatches content to earnings, news, or market specialists; record the selected route and result | WP2 | jjustice |
 | 3.6 | Implement earnings and market specialists; connect the existing news chain as the news specialist | WP2 | jjustice: earnings/market; pwang: news |
-| 3.7 | Record plan steps, tool choices/arguments/results, routes, and source IDs; demonstrate all three specialist routes | AF1, AF2, WP2, CD3 | jjustice; pwang reviews news trace |
+| 3.7 | Record plan steps, tool choices/arguments/results, routes, and source IDs; demonstrate all three specialist routes | AF1, AF2, WP2, CD3 | jjustice |
 | 3.8 | Complete Module 5 check-in under verified Canvas instructions | Course activity; verify | Both |
 | 3.9 | Draft evaluator criteria and review several news outputs manually; identify a documented weakness for the refinement demonstration | AF3, WP3 preparation | pwang |
 
@@ -258,13 +260,14 @@ Goal: complete self-reflection, feedback-driven refinement, and learning across 
 | --- | --- | --- | --- |
 | 4.1 | Optional RAG: implement MiniLM/FAISS retrieval only after the core tools and workflows are stable | AF2 | jjustice |
 | 4.2 | Evaluator returns 1–5 criterion scores, specific evidence-linked issues, feedback, and pass/fail for grounding, relevance, coverage, uncertainty, and clarity | AF3 | pwang |
-| 4.3 | Check claims against source spans: company/metric/value/unit/period; flag unsupported claims and document calculations. Review a small sample manually | AF3 | pwang; jjustice supplies financial evidence |
-| 4.4 | Refine the draft using evaluator feedback, then re-evaluate. Limit to three total drafts (initial + up to two revisions); record the stopping reason | WP3 | pwang; jjustice integrates orchestration |
-| 4.5 | Persist concise, source-aware lessons in `data/memory.json`; retrieve relevant lessons for later planning/drafting. Keep procedural lessons distinct from potentially stale financial facts | AF4 | jjustice; pwang supplies reflection notes |
-| 4.6 | Run the same ticker twice with the same source snapshot: show the stored lesson, later retrieval, and the specific action/output changed by it | AF4 | jjustice; pwang reviews evidence |
+| 4.3 | Check claims against source spans: company/metric/value/unit/period; flag unsupported claims and document calculations. Review a small sample manually | AF3 | pwang |
+| 4.4 | Refine the draft using evaluator feedback, then re-evaluate. Limit to three total drafts (initial + up to two revisions); record the stopping reason. Package the complete loop as `run_review_cycle(draft, evidence)` | WP3 | pwang |
+| 4.5 | Persist concise, source-aware lessons returned by the review cycle in `data/memory.json`; retrieve relevant lessons for later planning/drafting. Keep procedural lessons distinct from potentially stale financial facts | AF4 | jjustice |
+| 4.6 | Run the same ticker twice with the same source snapshot: show the stored lesson, later retrieval, and the specific action/output changed by it | AF4 | jjustice |
 | 4.7 | Plot evaluation scores across actual iterations and show a before/after issue table; report plateaus or unresolved issues honestly | CD3 | pwang |
-| 4.8 | Create the workflow diagram from the implemented system, including routing, the news chain, evaluator loop, and memory | CD3 | jjustice; pwang reviews owned components |
+| 4.8 | Create the workflow diagram from the implemented system, including routing, the news chain, evaluator loop, and memory | CD3 | jjustice |
 | 4.9 | Complete Module 6 check-in under verified Canvas instructions | Course activity; verify | Both |
+| 4.10 | Connect the assembled report and specialist evidence to `run_review_cycle`; display the returned iteration history and pass lesson notes to memory storage before the two-run demo | AF3, AF4, WP3 | jjustice |
 
 Internal acceptance rule, not an instructor threshold: mean evaluator score at least 4/5, no known unsupported material claims, and any missing data disclosed. If the draft limit is reached without passing, return the best available draft with unresolved issues and `needs_review` status. Validate evaluator output so malformed scores do not silently pass.
 
