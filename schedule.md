@@ -203,7 +203,7 @@ Goal: workable repo, tested model, verified data fields, agreed interfaces, and 
 
 Existing team-reported 1.5 result (jjustice, Apple silicon): Phi-3-mini on MPS with bfloat16 ran at 15.3 tokens/sec, approximately 20 seconds for 300 tokens; model load was 5 seconds with cached weights and 77 seconds on first load. Preserve this as a reported benchmark, not a guarantee for pwang's machine or all prompts.
 
-Record pwang's timing and tested environment. If generation is too slow, use a tested accessible fallback and recheck analysis/JSON quality. Local speed alone does not establish evaluator quality.
+Reported Task 1.5 results (pwang, Google Colab): Phi-3-mini-4k-instruct ran on an NVIDIA A100-SXM4-40GB GPU using CUDA and bfloat16 without quantization. Across three timed runs, median throughput was 28.44 tokens/s, generating 300 new tokens in 10.55 seconds. Cached loading took 2.64 seconds; initial loading, including download, took 49.65 seconds. These results apply to the tested Colab environment and prompt, not pwang’s local computer or all prompts.
 
 Existing compatibility observation: the original plan reports Transformers 5.17 and a chat-template mapping output requiring `generate(**enc)` with an explicit `return_dict=True`. Verify this against the installed version and actual model; retain the successful invocation in the notebook and pin the tested environment. Do not assume `uv sync` always resolves the same version.
 
