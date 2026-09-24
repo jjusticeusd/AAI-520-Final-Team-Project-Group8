@@ -46,11 +46,11 @@ Requires macOS or Linux. Run once after cloning:
 That installs `uv` if missing, then builds `.venv` from `pyproject.toml` and
 `uv.lock` so every teammate gets identical versions.
 
-Then download the spaCy and NLTK models, which are not Python packages and are
-not covered by `uv sync`:
+The spaCy `en_core_web_sm` model is pinned in `pyproject.toml` and installed by
+`uv sync`, so no separate download is needed. The NLTK data sets are downloaded
+at runtime and are not covered by `uv sync`, so fetch them once:
 
 ```bash
-uv run python -m spacy download en_core_web_sm
 uv run python -c "import nltk; [nltk.download(p) for p in ('punkt_tab','averaged_perceptron_tagger_eng','stopwords','wordnet')]"
 ```
 
@@ -73,17 +73,28 @@ uv run --with jupyter jupyter lab
 ```
 src/
   investment_research_agent.ipynb   the graded deliverable
-  scratch/                          per-person working notebooks, not submitted
+  scratch/                          per-person working files (.py) and tests, not submitted
 data/                               cached yfinance responses, committed so runs are reproducible
 schedule.md                         week-by-week task plan and deadlines
 init.sh                             first-time environment setup
+```
+
+## Development
+
+Component logic is built as plain `.py` files in `src/scratch/` so it can be unit
+tested, then assembled into the notebook for submission:
+
+```bash
+uv run pytest src/scratch/                       # unit tests (no model, no network)
+uv run python src/scratch/smoke_llm.py           # manual LLM check (loads the model)
+uv run python src/scratch/assemble_notebook.py   # emit paste-ready notebook cells
 ```
 
 ## Contributing
 
 `schedule.md` holds the task plan, deadlines, and owners. Two rules matter:
 
-- Develop in your own `src/scratch/` notebook. Only one person edits
+- Develop in your own `src/scratch/` files. Only one person edits
   `investment_research_agent.ipynb` at a time, otherwise the JSON merge
   conflicts are unresolvable.
 - Run **Restart and Clear All Outputs** before committing. Outputs are kept only

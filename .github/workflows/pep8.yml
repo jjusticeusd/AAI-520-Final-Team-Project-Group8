@@ -1,0 +1,12 @@
+name: PEP 8
+
+on:
+  pull_request:
+
+jobs:
+  pep8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: bash check_pep8.sh
