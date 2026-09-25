@@ -95,7 +95,7 @@ Python follows PEP 8.
 ## News baseline (Peng, Google Colab)
 
 The news prototype was tested separately in
-`Phi3_Colab_Benchmark_AAPL_v3.ipynb` on September 22, 2026. The workflow is
+[Phi3_Colab_Benchmark_AAPL_v3.ipynb](src/scratch/Phi3_Colab_Benchmark_AAPL_v3.ipynb) on September 22, 2026. The workflow is
 cleaning, classification, evidence-linked extraction, and summarization.
 Integration into the repository notebook and connection to `data/AAPL_news.json`
 are pending.
