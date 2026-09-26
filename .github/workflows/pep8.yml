@@ -1,0 +1,15 @@
+name: PEP 8
+
+on:
+  pull_request:
+
+jobs:
+  pep8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: PEP 8
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="$HOME/.local/bin" sh
+          export PATH="$HOME/.local/bin:$PATH"
+          bash check_pep8.sh
