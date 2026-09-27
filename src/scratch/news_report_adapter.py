@@ -18,7 +18,9 @@ def unique(values):
 
 
 def news_result_to_specialist(chain):
-    """Preserve summary citations and evidence without approving model claims."""
+    """Preserve summary citations and evidence without approving 
+    model claims.
+    """
     if chain.get('status') not in ('needs_manual_review', 'needs_review'):
         raise ValueError('This adapter requires a saved reviewable news run.')
     summary = chain.get('stages', {}).get('summarize')
@@ -48,7 +50,9 @@ def news_result_to_specialist(chain):
             url = claim.get('url')
             quote = claim.get('evidence_quote')
             if not aid or not url or not quote:
-                raise ValueError(f'Missing source identity, URL or quote: {cid}')
+                raise ValueError(
+                    f'Missing source identity, URL or quote: {cid}'
+                )
             source = {
                 'article_id': aid,
                 'url': url,
