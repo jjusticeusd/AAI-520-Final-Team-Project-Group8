@@ -18,7 +18,7 @@ def unique(values):
 
 
 def news_result_to_specialist(chain):
-    """Preserve summary citations and evidence without approving 
+    """Preserve summary citations and evidence without approving
     model claims.
     """
     if chain.get('status') not in ('needs_manual_review', 'needs_review'):
