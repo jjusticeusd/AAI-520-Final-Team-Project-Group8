@@ -1,0 +1,1305 @@
+{
+  "mapping_status": "structural_checks_passed",
+  "news_review_status": "needs_manual_review",
+  "real_market_integration": "not_tested",
+  "contains_synthetic_market_sections": true,
+  "input_file": "news_migration_explicit_llm_20260925T184649_793929Z.json",
+  "input_sha256": "0c48b055035a20f0a81fe6bb354439688280380cdd051b117bbe7643b572ee28",
+  "recorded_at_utc": "2026-09-27T03:18:00.887087+00:00",
+  "source_file_sha256": {
+    "news_report_adapter.py": "2f2a343734117d5503cbd18bf081ea28a89fc99082603c8582181a779c3afe0a",
+    "report.py": "b5215135d05e58d832bd1a01f7b79eb4c465a463ab54c81e5125ba97c721cf20",
+    "test_news_report_adapter.py": "c39ff4e84b0ab17bcc356246343b369b2324e4ec88d0e3aa0cb5cb614247b2ce"
+  },
+  "news_specialist": {
+    "findings": [
+      {
+        "text": "Customers can shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra at Apple Store locations, online, and in the Apple Store app.",
+        "claim_ids": [
+          "AAPL_39f841ae14_C1",
+          "AAPL_39f841ae14_C2",
+          "AAPL_39f841ae14_C3"
+        ],
+        "sources": [
+          {
+            "article_id": "AAPL_39f841ae14",
+            "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+            "source": "Apple Newsroom",
+            "published_at": null,
+            "updated_at": "2026-09-22T12:59:21.039000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "evidence": [
+          {
+            "statement": "Customers can shop for Mac mini with M6 and M5 Pro",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_39f841ae14_E1",
+            "evidence_quote": "Customers can now shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra, at Apple Store locations, online, and in the Apple Store app.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_39f841ae14_C1",
+            "article_id": "AAPL_39f841ae14",
+            "news_id": "AAPL_39f841ae14",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+            "published_at": null,
+            "updated_at": "2026-09-22T12:59:21.039000+00:00",
+            "text_type": "summary"
+          },
+          {
+            "statement": "Customers can shop for Mac Studio with M5 Max and M5 Ultra",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_39f841ae14_E1",
+            "evidence_quote": "Customers can now shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra, at Apple Store locations, online, and in the Apple Store app.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_39f841ae14_C2",
+            "article_id": "AAPL_39f841ae14",
+            "news_id": "AAPL_39f841ae14",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+            "published_at": null,
+            "updated_at": "2026-09-22T12:59:21.039000+00:00",
+            "text_type": "summary"
+          },
+          {
+            "statement": "Customers can shop for Mac mini and Mac Studio at Apple Store locations, online, and in the Apple Store app",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_39f841ae14_E1",
+            "evidence_quote": "Customers can now shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra, at Apple Store locations, online, and in the Apple Store app.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_39f841ae14_C3",
+            "article_id": "AAPL_39f841ae14",
+            "news_id": "AAPL_39f841ae14",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+            "published_at": null,
+            "updated_at": "2026-09-22T12:59:21.039000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "review_status": "needs_manual_review"
+      },
+      {
+        "text": "Apple Music Hall is a state-of-the-art live music venue in London’s storied Battersea Power Station.",
+        "claim_ids": [
+          "AAPL_a9c90e3697_C1",
+          "AAPL_a9c90e3697_C2",
+          "AAPL_a9c90e3697_C3"
+        ],
+        "sources": [
+          {
+            "article_id": "AAPL_a9c90e3697",
+            "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+            "source": "Apple Newsroom",
+            "published_at": null,
+            "updated_at": "2026-09-22T05:59:58.127000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "evidence": [
+          {
+            "statement": "Apple Music Hall is a live music venue.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_a9c90e3697_E1",
+            "evidence_quote": "Apple Music Hall, a state-of-the-art live music venue in London’s storied Battersea Power Station, is now open.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_a9c90e3697_C1",
+            "article_id": "AAPL_a9c90e3697",
+            "news_id": "AAPL_a9c90e3697",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+            "published_at": null,
+            "updated_at": "2026-09-22T05:59:58.127000+00:00",
+            "text_type": "summary"
+          },
+          {
+            "statement": "Apple Music Hall is located in London.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_a9c90e3697_E1",
+            "evidence_quote": "Apple Music Hall, a state-of-the-art live music venue in London’s storied Battersea Power Station, is now open.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_a9c90e3697_C2",
+            "article_id": "AAPL_a9c90e3697",
+            "news_id": "AAPL_a9c90e3697",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+            "published_at": null,
+            "updated_at": "2026-09-22T05:59:58.127000+00:00",
+            "text_type": "summary"
+          },
+          {
+            "statement": "Apple Music Hall is situated in Battersea Power Station.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_a9c90e3697_E1",
+            "evidence_quote": "Apple Music Hall, a state-of-the-art live music venue in London’s storied Battersea Power Station, is now open.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_a9c90e3697_C3",
+            "article_id": "AAPL_a9c90e3697",
+            "news_id": "AAPL_a9c90e3697",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+            "published_at": null,
+            "updated_at": "2026-09-22T05:59:58.127000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "review_status": "needs_manual_review"
+      },
+      {
+        "text": "Apple Store locations introduced iPhone 18 Pro lineup on Friday, September 18.",
+        "claim_ids": [
+          "AAPL_a7f18f79cb_C1",
+          "AAPL_a7f18f79cb_C2",
+          "AAPL_a7f18f79cb_C3"
+        ],
+        "sources": [
+          {
+            "article_id": "AAPL_a7f18f79cb",
+            "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+            "source": "Apple Newsroom",
+            "published_at": null,
+            "updated_at": "2026-09-18T05:02:14.780000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "evidence": [
+          {
+            "statement": "Apple Store locations introduced iPhone 18 Pro lineup on Friday, September 18.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_a7f18f79cb_E1",
+            "evidence_quote": "On Friday, September 18, Apple Store locations around the world introduced customers to the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_a7f18f79cb_C1",
+            "article_id": "AAPL_a7f18f79cb",
+            "news_id": "AAPL_a7f18f79cb",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+            "published_at": null,
+            "updated_at": "2026-09-18T05:02:14.780000+00:00",
+            "text_type": "summary"
+          },
+          {
+            "statement": "Apple Store locations introduced Apple Watch Series 12 on Friday, September 18.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_a7f18f79cb_E1",
+            "evidence_quote": "On Friday, September 18, Apple Store locations around the world introduced customers to the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_a7f18f79cb_C2",
+            "article_id": "AAPL_a7f18f79cb",
+            "news_id": "AAPL_a7f18f79cb",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+            "published_at": null,
+            "updated_at": "2026-09-18T05:02:14.780000+00:00",
+            "text_type": "summary"
+          },
+          {
+            "statement": "Apple Store locations introduced Apple Watch Ultra 4 on Friday, September 18.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_a7f18f79cb_E1",
+            "evidence_quote": "On Friday, September 18, Apple Store locations around the world introduced customers to the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_a7f18f79cb_C3",
+            "article_id": "AAPL_a7f18f79cb",
+            "news_id": "AAPL_a7f18f79cb",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+            "published_at": null,
+            "updated_at": "2026-09-18T05:02:14.780000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "review_status": "needs_manual_review"
+      },
+      {
+        "text": "A new photography exhibition celebrates the evolving language of visual storytelling and showcases the advanced pro camera system on iPhone 18 Pro.",
+        "claim_ids": [
+          "AAPL_4f987aa847_C1",
+          "AAPL_4f987aa847_C2"
+        ],
+        "sources": [
+          {
+            "article_id": "AAPL_4f987aa847",
+            "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+            "source": "Apple Newsroom",
+            "published_at": null,
+            "updated_at": "2026-09-16T13:59:28.902000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "evidence": [
+          {
+            "statement": "A new photography exhibition celebrates the evolving language of visual storytelling.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_4f987aa847_E1",
+            "evidence_quote": "A new photography exhibition, curated by Kathy Ryan, celebrates the evolving language of visual storytelling and showcases the advanced pro camera system on iPhone 18 Pro.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_4f987aa847_C1",
+            "article_id": "AAPL_4f987aa847",
+            "news_id": "AAPL_4f987aa847",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+            "published_at": null,
+            "updated_at": "2026-09-16T13:59:28.902000+00:00",
+            "text_type": "summary"
+          },
+          {
+            "statement": "The exhibition showcases the advanced pro camera system on iPhone 18 Pro.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_4f987aa847_E1",
+            "evidence_quote": "A new photography exhibition, curated by Kathy Ryan, celebrates the evolving language of visual storytelling and showcases the advanced pro camera system on iPhone 18 Pro.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_4f987aa847_C2",
+            "article_id": "AAPL_4f987aa847",
+            "news_id": "AAPL_4f987aa847",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+            "published_at": null,
+            "updated_at": "2026-09-16T13:59:28.902000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "review_status": "needs_manual_review"
+      },
+      {
+        "text": "Apple TV shattered records to become the most-awarded network of the year, landing 29 wins overall at the 78th Primetime Emmy Awards.",
+        "claim_ids": [
+          "AAPL_b6fb9a66d5_C1",
+          "AAPL_b6fb9a66d5_C2",
+          "AAPL_b6fb9a66d5_C3"
+        ],
+        "sources": [
+          {
+            "article_id": "AAPL_b6fb9a66d5",
+            "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+            "source": "Apple Newsroom",
+            "published_at": null,
+            "updated_at": "2026-09-15T10:02:42.356000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "evidence": [
+          {
+            "statement": "Apple TV shattered records at the 78th Primetime Emmy Awards.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_b6fb9a66d5_E1",
+            "evidence_quote": "This evening at the 78th Primetime Emmy Awards, Apple TV shatters records to become the most-awarded network of the year, landing 29 wins overall.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_b6fb9a66d5_C1",
+            "article_id": "AAPL_b6fb9a66d5",
+            "news_id": "AAPL_b6fb9a66d5",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+            "published_at": null,
+            "updated_at": "2026-09-15T10:02:42.356000+00:00",
+            "text_type": "summary"
+          },
+          {
+            "statement": "Apple TV won 29 awards at the 78th Primetime Emmy Awards.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_b6fb9a66d5_E1",
+            "evidence_quote": "This evening at the 78th Primetime Emmy Awards, Apple TV shatters records to become the most-awarded network of the year, landing 29 wins overall.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_b6fb9a66d5_C2",
+            "article_id": "AAPL_b6fb9a66d5",
+            "news_id": "AAPL_b6fb9a66d5",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+            "published_at": null,
+            "updated_at": "2026-09-15T10:02:42.356000+00:00",
+            "text_type": "summary"
+          },
+          {
+            "statement": "Apple TV became the most-awarded network of the year at the 78th Primetime Emmy Awards.",
+            "evidence_id": "E1",
+            "evidence_ref": "AAPL_b6fb9a66d5_E1",
+            "evidence_quote": "This evening at the 78th Primetime Emmy Awards, Apple TV shatters records to become the most-awarded network of the year, landing 29 wins overall.",
+            "quote_origin": "application_copied_source_block",
+            "support_review": "pending",
+            "claim_id": "AAPL_b6fb9a66d5_C3",
+            "article_id": "AAPL_b6fb9a66d5",
+            "news_id": "AAPL_b6fb9a66d5",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+            "published_at": null,
+            "updated_at": "2026-09-15T10:02:42.356000+00:00",
+            "text_type": "summary"
+          }
+        ],
+        "review_status": "needs_manual_review"
+      }
+    ],
+    "source_ids": [
+      "AAPL_39f841ae14",
+      "AAPL_a9c90e3697",
+      "AAPL_a7f18f79cb",
+      "AAPL_4f987aa847",
+      "AAPL_b6fb9a66d5"
+    ],
+    "dates_units": [
+      {
+        "article_id": "AAPL_39f841ae14",
+        "kind": "updated_at",
+        "value": "2026-09-22T12:59:21.039000+00:00",
+        "unit": null,
+        "is_event_date": false
+      },
+      {
+        "article_id": "AAPL_a9c90e3697",
+        "kind": "updated_at",
+        "value": "2026-09-22T05:59:58.127000+00:00",
+        "unit": null,
+        "is_event_date": false
+      },
+      {
+        "article_id": "AAPL_a7f18f79cb",
+        "kind": "updated_at",
+        "value": "2026-09-18T05:02:14.780000+00:00",
+        "unit": null,
+        "is_event_date": false
+      },
+      {
+        "article_id": "AAPL_4f987aa847",
+        "kind": "updated_at",
+        "value": "2026-09-16T13:59:28.902000+00:00",
+        "unit": null,
+        "is_event_date": false
+      },
+      {
+        "article_id": "AAPL_b6fb9a66d5",
+        "kind": "updated_at",
+        "value": "2026-09-15T10:02:42.356000+00:00",
+        "unit": null,
+        "is_event_date": false
+      }
+    ],
+    "missing_data": [
+      "AAPL_39f841ae14: publication date unavailable.",
+      "AAPL_39f841ae14: evidence is summary; full article not supplied as evidence.",
+      "AAPL_a9c90e3697: publication date unavailable.",
+      "AAPL_a9c90e3697: evidence is summary; full article not supplied as evidence.",
+      "AAPL_a7f18f79cb: publication date unavailable.",
+      "AAPL_a7f18f79cb: evidence is summary; full article not supplied as evidence.",
+      "AAPL_4f987aa847: publication date unavailable.",
+      "AAPL_4f987aa847: evidence is summary; full article not supplied as evidence.",
+      "AAPL_b6fb9a66d5: publication date unavailable.",
+      "AAPL_b6fb9a66d5: evidence is summary; full article not supplied as evidence.",
+      "Structured event dates, reporting periods, metrics, numeric values and units have not been mapped; do not infer them from prose."
+    ],
+    "limitations": [
+      "The evidence provided is from Apple Newsroom, which may have a source bias towards Apple products.",
+      "The claims are based on Apple's own announcements and may not be independently verified.",
+      "The information is not updated beyond the provided 'updated_at' dates, which may not reflect the most current status.",
+      "Original news run status: needs_manual_review.",
+      "This adapter maps existing results; it does not verify facts, correct omissions, or establish that citations support every word.",
+      "Publication and update timestamps are source metadata, not verified event dates."
+    ]
+  },
+  "news_only_report": {
+    "sections": {
+      "news": {
+        "findings": [
+          {
+            "text": "Customers can shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra at Apple Store locations, online, and in the Apple Store app.",
+            "claim_ids": [
+              "AAPL_39f841ae14_C1",
+              "AAPL_39f841ae14_C2",
+              "AAPL_39f841ae14_C3"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_39f841ae14",
+                "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-22T12:59:21.039000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "Customers can shop for Mac mini with M6 and M5 Pro",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_39f841ae14_E1",
+                "evidence_quote": "Customers can now shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra, at Apple Store locations, online, and in the Apple Store app.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_39f841ae14_C1",
+                "article_id": "AAPL_39f841ae14",
+                "news_id": "AAPL_39f841ae14",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+                "published_at": null,
+                "updated_at": "2026-09-22T12:59:21.039000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Customers can shop for Mac Studio with M5 Max and M5 Ultra",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_39f841ae14_E1",
+                "evidence_quote": "Customers can now shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra, at Apple Store locations, online, and in the Apple Store app.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_39f841ae14_C2",
+                "article_id": "AAPL_39f841ae14",
+                "news_id": "AAPL_39f841ae14",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+                "published_at": null,
+                "updated_at": "2026-09-22T12:59:21.039000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Customers can shop for Mac mini and Mac Studio at Apple Store locations, online, and in the Apple Store app",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_39f841ae14_E1",
+                "evidence_quote": "Customers can now shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra, at Apple Store locations, online, and in the Apple Store app.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_39f841ae14_C3",
+                "article_id": "AAPL_39f841ae14",
+                "news_id": "AAPL_39f841ae14",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+                "published_at": null,
+                "updated_at": "2026-09-22T12:59:21.039000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          },
+          {
+            "text": "Apple Music Hall is a state-of-the-art live music venue in London’s storied Battersea Power Station.",
+            "claim_ids": [
+              "AAPL_a9c90e3697_C1",
+              "AAPL_a9c90e3697_C2",
+              "AAPL_a9c90e3697_C3"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_a9c90e3697",
+                "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-22T05:59:58.127000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "Apple Music Hall is a live music venue.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a9c90e3697_E1",
+                "evidence_quote": "Apple Music Hall, a state-of-the-art live music venue in London’s storied Battersea Power Station, is now open.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a9c90e3697_C1",
+                "article_id": "AAPL_a9c90e3697",
+                "news_id": "AAPL_a9c90e3697",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+                "published_at": null,
+                "updated_at": "2026-09-22T05:59:58.127000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple Music Hall is located in London.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a9c90e3697_E1",
+                "evidence_quote": "Apple Music Hall, a state-of-the-art live music venue in London’s storied Battersea Power Station, is now open.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a9c90e3697_C2",
+                "article_id": "AAPL_a9c90e3697",
+                "news_id": "AAPL_a9c90e3697",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+                "published_at": null,
+                "updated_at": "2026-09-22T05:59:58.127000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple Music Hall is situated in Battersea Power Station.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a9c90e3697_E1",
+                "evidence_quote": "Apple Music Hall, a state-of-the-art live music venue in London’s storied Battersea Power Station, is now open.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a9c90e3697_C3",
+                "article_id": "AAPL_a9c90e3697",
+                "news_id": "AAPL_a9c90e3697",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+                "published_at": null,
+                "updated_at": "2026-09-22T05:59:58.127000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          },
+          {
+            "text": "Apple Store locations introduced iPhone 18 Pro lineup on Friday, September 18.",
+            "claim_ids": [
+              "AAPL_a7f18f79cb_C1",
+              "AAPL_a7f18f79cb_C2",
+              "AAPL_a7f18f79cb_C3"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_a7f18f79cb",
+                "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-18T05:02:14.780000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "Apple Store locations introduced iPhone 18 Pro lineup on Friday, September 18.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a7f18f79cb_E1",
+                "evidence_quote": "On Friday, September 18, Apple Store locations around the world introduced customers to the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a7f18f79cb_C1",
+                "article_id": "AAPL_a7f18f79cb",
+                "news_id": "AAPL_a7f18f79cb",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+                "published_at": null,
+                "updated_at": "2026-09-18T05:02:14.780000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple Store locations introduced Apple Watch Series 12 on Friday, September 18.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a7f18f79cb_E1",
+                "evidence_quote": "On Friday, September 18, Apple Store locations around the world introduced customers to the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a7f18f79cb_C2",
+                "article_id": "AAPL_a7f18f79cb",
+                "news_id": "AAPL_a7f18f79cb",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+                "published_at": null,
+                "updated_at": "2026-09-18T05:02:14.780000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple Store locations introduced Apple Watch Ultra 4 on Friday, September 18.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a7f18f79cb_E1",
+                "evidence_quote": "On Friday, September 18, Apple Store locations around the world introduced customers to the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a7f18f79cb_C3",
+                "article_id": "AAPL_a7f18f79cb",
+                "news_id": "AAPL_a7f18f79cb",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+                "published_at": null,
+                "updated_at": "2026-09-18T05:02:14.780000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          },
+          {
+            "text": "A new photography exhibition celebrates the evolving language of visual storytelling and showcases the advanced pro camera system on iPhone 18 Pro.",
+            "claim_ids": [
+              "AAPL_4f987aa847_C1",
+              "AAPL_4f987aa847_C2"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_4f987aa847",
+                "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-16T13:59:28.902000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "A new photography exhibition celebrates the evolving language of visual storytelling.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_4f987aa847_E1",
+                "evidence_quote": "A new photography exhibition, curated by Kathy Ryan, celebrates the evolving language of visual storytelling and showcases the advanced pro camera system on iPhone 18 Pro.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_4f987aa847_C1",
+                "article_id": "AAPL_4f987aa847",
+                "news_id": "AAPL_4f987aa847",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+                "published_at": null,
+                "updated_at": "2026-09-16T13:59:28.902000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "The exhibition showcases the advanced pro camera system on iPhone 18 Pro.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_4f987aa847_E1",
+                "evidence_quote": "A new photography exhibition, curated by Kathy Ryan, celebrates the evolving language of visual storytelling and showcases the advanced pro camera system on iPhone 18 Pro.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_4f987aa847_C2",
+                "article_id": "AAPL_4f987aa847",
+                "news_id": "AAPL_4f987aa847",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+                "published_at": null,
+                "updated_at": "2026-09-16T13:59:28.902000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          },
+          {
+            "text": "Apple TV shattered records to become the most-awarded network of the year, landing 29 wins overall at the 78th Primetime Emmy Awards.",
+            "claim_ids": [
+              "AAPL_b6fb9a66d5_C1",
+              "AAPL_b6fb9a66d5_C2",
+              "AAPL_b6fb9a66d5_C3"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_b6fb9a66d5",
+                "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-15T10:02:42.356000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "Apple TV shattered records at the 78th Primetime Emmy Awards.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_b6fb9a66d5_E1",
+                "evidence_quote": "This evening at the 78th Primetime Emmy Awards, Apple TV shatters records to become the most-awarded network of the year, landing 29 wins overall.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_b6fb9a66d5_C1",
+                "article_id": "AAPL_b6fb9a66d5",
+                "news_id": "AAPL_b6fb9a66d5",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+                "published_at": null,
+                "updated_at": "2026-09-15T10:02:42.356000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple TV won 29 awards at the 78th Primetime Emmy Awards.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_b6fb9a66d5_E1",
+                "evidence_quote": "This evening at the 78th Primetime Emmy Awards, Apple TV shatters records to become the most-awarded network of the year, landing 29 wins overall.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_b6fb9a66d5_C2",
+                "article_id": "AAPL_b6fb9a66d5",
+                "news_id": "AAPL_b6fb9a66d5",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+                "published_at": null,
+                "updated_at": "2026-09-15T10:02:42.356000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple TV became the most-awarded network of the year at the 78th Primetime Emmy Awards.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_b6fb9a66d5_E1",
+                "evidence_quote": "This evening at the 78th Primetime Emmy Awards, Apple TV shatters records to become the most-awarded network of the year, landing 29 wins overall.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_b6fb9a66d5_C3",
+                "article_id": "AAPL_b6fb9a66d5",
+                "news_id": "AAPL_b6fb9a66d5",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+                "published_at": null,
+                "updated_at": "2026-09-15T10:02:42.356000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          }
+        ],
+        "source_ids": [
+          "AAPL_39f841ae14",
+          "AAPL_a9c90e3697",
+          "AAPL_a7f18f79cb",
+          "AAPL_4f987aa847",
+          "AAPL_b6fb9a66d5"
+        ],
+        "dates_units": [
+          {
+            "article_id": "AAPL_39f841ae14",
+            "kind": "updated_at",
+            "value": "2026-09-22T12:59:21.039000+00:00",
+            "unit": null,
+            "is_event_date": false
+          },
+          {
+            "article_id": "AAPL_a9c90e3697",
+            "kind": "updated_at",
+            "value": "2026-09-22T05:59:58.127000+00:00",
+            "unit": null,
+            "is_event_date": false
+          },
+          {
+            "article_id": "AAPL_a7f18f79cb",
+            "kind": "updated_at",
+            "value": "2026-09-18T05:02:14.780000+00:00",
+            "unit": null,
+            "is_event_date": false
+          },
+          {
+            "article_id": "AAPL_4f987aa847",
+            "kind": "updated_at",
+            "value": "2026-09-16T13:59:28.902000+00:00",
+            "unit": null,
+            "is_event_date": false
+          },
+          {
+            "article_id": "AAPL_b6fb9a66d5",
+            "kind": "updated_at",
+            "value": "2026-09-15T10:02:42.356000+00:00",
+            "unit": null,
+            "is_event_date": false
+          }
+        ],
+        "missing_data": [
+          "AAPL_39f841ae14: publication date unavailable.",
+          "AAPL_39f841ae14: evidence is summary; full article not supplied as evidence.",
+          "AAPL_a9c90e3697: publication date unavailable.",
+          "AAPL_a9c90e3697: evidence is summary; full article not supplied as evidence.",
+          "AAPL_a7f18f79cb: publication date unavailable.",
+          "AAPL_a7f18f79cb: evidence is summary; full article not supplied as evidence.",
+          "AAPL_4f987aa847: publication date unavailable.",
+          "AAPL_4f987aa847: evidence is summary; full article not supplied as evidence.",
+          "AAPL_b6fb9a66d5: publication date unavailable.",
+          "AAPL_b6fb9a66d5: evidence is summary; full article not supplied as evidence.",
+          "Structured event dates, reporting periods, metrics, numeric values and units have not been mapped; do not infer them from prose."
+        ],
+        "limitations": [
+          "The evidence provided is from Apple Newsroom, which may have a source bias towards Apple products.",
+          "The claims are based on Apple's own announcements and may not be independently verified.",
+          "The information is not updated beyond the provided 'updated_at' dates, which may not reflect the most current status.",
+          "Original news run status: needs_manual_review.",
+          "This adapter maps existing results; it does not verify facts, correct omissions, or establish that citations support every word.",
+          "Publication and update timestamps are source metadata, not verified event dates."
+        ]
+      }
+    },
+    "all_source_ids": [
+      "AAPL_39f841ae14",
+      "AAPL_a9c90e3697",
+      "AAPL_a7f18f79cb",
+      "AAPL_4f987aa847",
+      "AAPL_b6fb9a66d5"
+    ],
+    "limitations": [
+      "The evidence provided is from Apple Newsroom, which may have a source bias towards Apple products.",
+      "The claims are based on Apple's own announcements and may not be independently verified.",
+      "The information is not updated beyond the provided 'updated_at' dates, which may not reflect the most current status.",
+      "Original news run status: needs_manual_review.",
+      "This adapter maps existing results; it does not verify facts, correct omissions, or establish that citations support every word.",
+      "Publication and update timestamps are source metadata, not verified event dates."
+    ],
+    "missing_data": [
+      "AAPL_39f841ae14: publication date unavailable.",
+      "AAPL_39f841ae14: evidence is summary; full article not supplied as evidence.",
+      "AAPL_a9c90e3697: publication date unavailable.",
+      "AAPL_a9c90e3697: evidence is summary; full article not supplied as evidence.",
+      "AAPL_a7f18f79cb: publication date unavailable.",
+      "AAPL_a7f18f79cb: evidence is summary; full article not supplied as evidence.",
+      "AAPL_4f987aa847: publication date unavailable.",
+      "AAPL_4f987aa847: evidence is summary; full article not supplied as evidence.",
+      "AAPL_b6fb9a66d5: publication date unavailable.",
+      "AAPL_b6fb9a66d5: evidence is summary; full article not supplied as evidence.",
+      "Structured event dates, reporting periods, metrics, numeric values and units have not been mapped; do not infer them from prose."
+    ]
+  },
+  "combined_report_with_synthetic_market_sections": {
+    "sections": {
+      "news": {
+        "findings": [
+          {
+            "text": "Customers can shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra at Apple Store locations, online, and in the Apple Store app.",
+            "claim_ids": [
+              "AAPL_39f841ae14_C1",
+              "AAPL_39f841ae14_C2",
+              "AAPL_39f841ae14_C3"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_39f841ae14",
+                "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-22T12:59:21.039000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "Customers can shop for Mac mini with M6 and M5 Pro",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_39f841ae14_E1",
+                "evidence_quote": "Customers can now shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra, at Apple Store locations, online, and in the Apple Store app.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_39f841ae14_C1",
+                "article_id": "AAPL_39f841ae14",
+                "news_id": "AAPL_39f841ae14",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+                "published_at": null,
+                "updated_at": "2026-09-22T12:59:21.039000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Customers can shop for Mac Studio with M5 Max and M5 Ultra",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_39f841ae14_E1",
+                "evidence_quote": "Customers can now shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra, at Apple Store locations, online, and in the Apple Store app.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_39f841ae14_C2",
+                "article_id": "AAPL_39f841ae14",
+                "news_id": "AAPL_39f841ae14",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+                "published_at": null,
+                "updated_at": "2026-09-22T12:59:21.039000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Customers can shop for Mac mini and Mac Studio at Apple Store locations, online, and in the Apple Store app",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_39f841ae14_E1",
+                "evidence_quote": "Customers can now shop for Mac mini with M6 and M5 Pro, and Mac Studio with M5 Max and M5 Ultra, at Apple Store locations, online, and in the Apple Store app.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_39f841ae14_C3",
+                "article_id": "AAPL_39f841ae14",
+                "news_id": "AAPL_39f841ae14",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+                "published_at": null,
+                "updated_at": "2026-09-22T12:59:21.039000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          },
+          {
+            "text": "Apple Music Hall is a state-of-the-art live music venue in London’s storied Battersea Power Station.",
+            "claim_ids": [
+              "AAPL_a9c90e3697_C1",
+              "AAPL_a9c90e3697_C2",
+              "AAPL_a9c90e3697_C3"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_a9c90e3697",
+                "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-22T05:59:58.127000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "Apple Music Hall is a live music venue.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a9c90e3697_E1",
+                "evidence_quote": "Apple Music Hall, a state-of-the-art live music venue in London’s storied Battersea Power Station, is now open.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a9c90e3697_C1",
+                "article_id": "AAPL_a9c90e3697",
+                "news_id": "AAPL_a9c90e3697",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+                "published_at": null,
+                "updated_at": "2026-09-22T05:59:58.127000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple Music Hall is located in London.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a9c90e3697_E1",
+                "evidence_quote": "Apple Music Hall, a state-of-the-art live music venue in London’s storied Battersea Power Station, is now open.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a9c90e3697_C2",
+                "article_id": "AAPL_a9c90e3697",
+                "news_id": "AAPL_a9c90e3697",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+                "published_at": null,
+                "updated_at": "2026-09-22T05:59:58.127000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple Music Hall is situated in Battersea Power Station.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a9c90e3697_E1",
+                "evidence_quote": "Apple Music Hall, a state-of-the-art live music venue in London’s storied Battersea Power Station, is now open.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a9c90e3697_C3",
+                "article_id": "AAPL_a9c90e3697",
+                "news_id": "AAPL_a9c90e3697",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/",
+                "published_at": null,
+                "updated_at": "2026-09-22T05:59:58.127000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          },
+          {
+            "text": "Apple Store locations introduced iPhone 18 Pro lineup on Friday, September 18.",
+            "claim_ids": [
+              "AAPL_a7f18f79cb_C1",
+              "AAPL_a7f18f79cb_C2",
+              "AAPL_a7f18f79cb_C3"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_a7f18f79cb",
+                "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-18T05:02:14.780000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "Apple Store locations introduced iPhone 18 Pro lineup on Friday, September 18.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a7f18f79cb_E1",
+                "evidence_quote": "On Friday, September 18, Apple Store locations around the world introduced customers to the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a7f18f79cb_C1",
+                "article_id": "AAPL_a7f18f79cb",
+                "news_id": "AAPL_a7f18f79cb",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+                "published_at": null,
+                "updated_at": "2026-09-18T05:02:14.780000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple Store locations introduced Apple Watch Series 12 on Friday, September 18.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a7f18f79cb_E1",
+                "evidence_quote": "On Friday, September 18, Apple Store locations around the world introduced customers to the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a7f18f79cb_C2",
+                "article_id": "AAPL_a7f18f79cb",
+                "news_id": "AAPL_a7f18f79cb",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+                "published_at": null,
+                "updated_at": "2026-09-18T05:02:14.780000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple Store locations introduced Apple Watch Ultra 4 on Friday, September 18.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_a7f18f79cb_E1",
+                "evidence_quote": "On Friday, September 18, Apple Store locations around the world introduced customers to the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_a7f18f79cb_C3",
+                "article_id": "AAPL_a7f18f79cb",
+                "news_id": "AAPL_a7f18f79cb",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/",
+                "published_at": null,
+                "updated_at": "2026-09-18T05:02:14.780000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          },
+          {
+            "text": "A new photography exhibition celebrates the evolving language of visual storytelling and showcases the advanced pro camera system on iPhone 18 Pro.",
+            "claim_ids": [
+              "AAPL_4f987aa847_C1",
+              "AAPL_4f987aa847_C2"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_4f987aa847",
+                "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-16T13:59:28.902000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "A new photography exhibition celebrates the evolving language of visual storytelling.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_4f987aa847_E1",
+                "evidence_quote": "A new photography exhibition, curated by Kathy Ryan, celebrates the evolving language of visual storytelling and showcases the advanced pro camera system on iPhone 18 Pro.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_4f987aa847_C1",
+                "article_id": "AAPL_4f987aa847",
+                "news_id": "AAPL_4f987aa847",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+                "published_at": null,
+                "updated_at": "2026-09-16T13:59:28.902000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "The exhibition showcases the advanced pro camera system on iPhone 18 Pro.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_4f987aa847_E1",
+                "evidence_quote": "A new photography exhibition, curated by Kathy Ryan, celebrates the evolving language of visual storytelling and showcases the advanced pro camera system on iPhone 18 Pro.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_4f987aa847_C2",
+                "article_id": "AAPL_4f987aa847",
+                "news_id": "AAPL_4f987aa847",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/celebrating-what-holds-us-on-iphone-18-pro/",
+                "published_at": null,
+                "updated_at": "2026-09-16T13:59:28.902000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          },
+          {
+            "text": "Apple TV shattered records to become the most-awarded network of the year, landing 29 wins overall at the 78th Primetime Emmy Awards.",
+            "claim_ids": [
+              "AAPL_b6fb9a66d5_C1",
+              "AAPL_b6fb9a66d5_C2",
+              "AAPL_b6fb9a66d5_C3"
+            ],
+            "sources": [
+              {
+                "article_id": "AAPL_b6fb9a66d5",
+                "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+                "source": "Apple Newsroom",
+                "published_at": null,
+                "updated_at": "2026-09-15T10:02:42.356000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "evidence": [
+              {
+                "statement": "Apple TV shattered records at the 78th Primetime Emmy Awards.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_b6fb9a66d5_E1",
+                "evidence_quote": "This evening at the 78th Primetime Emmy Awards, Apple TV shatters records to become the most-awarded network of the year, landing 29 wins overall.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_b6fb9a66d5_C1",
+                "article_id": "AAPL_b6fb9a66d5",
+                "news_id": "AAPL_b6fb9a66d5",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+                "published_at": null,
+                "updated_at": "2026-09-15T10:02:42.356000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple TV won 29 awards at the 78th Primetime Emmy Awards.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_b6fb9a66d5_E1",
+                "evidence_quote": "This evening at the 78th Primetime Emmy Awards, Apple TV shatters records to become the most-awarded network of the year, landing 29 wins overall.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_b6fb9a66d5_C2",
+                "article_id": "AAPL_b6fb9a66d5",
+                "news_id": "AAPL_b6fb9a66d5",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+                "published_at": null,
+                "updated_at": "2026-09-15T10:02:42.356000+00:00",
+                "text_type": "summary"
+              },
+              {
+                "statement": "Apple TV became the most-awarded network of the year at the 78th Primetime Emmy Awards.",
+                "evidence_id": "E1",
+                "evidence_ref": "AAPL_b6fb9a66d5_E1",
+                "evidence_quote": "This evening at the 78th Primetime Emmy Awards, Apple TV shatters records to become the most-awarded network of the year, landing 29 wins overall.",
+                "quote_origin": "application_copied_source_block",
+                "support_review": "pending",
+                "claim_id": "AAPL_b6fb9a66d5_C3",
+                "article_id": "AAPL_b6fb9a66d5",
+                "news_id": "AAPL_b6fb9a66d5",
+                "source": "Apple Newsroom",
+                "url": "https://www.apple.com/newsroom/2026/09/widows-bay-triumphs-as-most-decorated-freshman-comedy-in-emmy-history/",
+                "published_at": null,
+                "updated_at": "2026-09-15T10:02:42.356000+00:00",
+                "text_type": "summary"
+              }
+            ],
+            "review_status": "needs_manual_review"
+          }
+        ],
+        "source_ids": [
+          "AAPL_39f841ae14",
+          "AAPL_a9c90e3697",
+          "AAPL_a7f18f79cb",
+          "AAPL_4f987aa847",
+          "AAPL_b6fb9a66d5"
+        ],
+        "dates_units": [
+          {
+            "article_id": "AAPL_39f841ae14",
+            "kind": "updated_at",
+            "value": "2026-09-22T12:59:21.039000+00:00",
+            "unit": null,
+            "is_event_date": false
+          },
+          {
+            "article_id": "AAPL_a9c90e3697",
+            "kind": "updated_at",
+            "value": "2026-09-22T05:59:58.127000+00:00",
+            "unit": null,
+            "is_event_date": false
+          },
+          {
+            "article_id": "AAPL_a7f18f79cb",
+            "kind": "updated_at",
+            "value": "2026-09-18T05:02:14.780000+00:00",
+            "unit": null,
+            "is_event_date": false
+          },
+          {
+            "article_id": "AAPL_4f987aa847",
+            "kind": "updated_at",
+            "value": "2026-09-16T13:59:28.902000+00:00",
+            "unit": null,
+            "is_event_date": false
+          },
+          {
+            "article_id": "AAPL_b6fb9a66d5",
+            "kind": "updated_at",
+            "value": "2026-09-15T10:02:42.356000+00:00",
+            "unit": null,
+            "is_event_date": false
+          }
+        ],
+        "missing_data": [
+          "AAPL_39f841ae14: publication date unavailable.",
+          "AAPL_39f841ae14: evidence is summary; full article not supplied as evidence.",
+          "AAPL_a9c90e3697: publication date unavailable.",
+          "AAPL_a9c90e3697: evidence is summary; full article not supplied as evidence.",
+          "AAPL_a7f18f79cb: publication date unavailable.",
+          "AAPL_a7f18f79cb: evidence is summary; full article not supplied as evidence.",
+          "AAPL_4f987aa847: publication date unavailable.",
+          "AAPL_4f987aa847: evidence is summary; full article not supplied as evidence.",
+          "AAPL_b6fb9a66d5: publication date unavailable.",
+          "AAPL_b6fb9a66d5: evidence is summary; full article not supplied as evidence.",
+          "Structured event dates, reporting periods, metrics, numeric values and units have not been mapped; do not infer them from prose."
+        ],
+        "limitations": [
+          "The evidence provided is from Apple Newsroom, which may have a source bias towards Apple products.",
+          "The claims are based on Apple's own announcements and may not be independently verified.",
+          "The information is not updated beyond the provided 'updated_at' dates, which may not reflect the most current status.",
+          "Original news run status: needs_manual_review.",
+          "This adapter maps existing results; it does not verify facts, correct omissions, or establish that citations support every word.",
+          "Publication and update timestamps are source metadata, not verified event dates."
+        ]
+      },
+      "prices": {
+        "findings": [
+          "SYNTHETIC price interface fixture; not real market analysis."
+        ],
+        "source_ids": [
+          "SYNTHETIC_PRICE_SOURCE"
+        ],
+        "dates_units": [],
+        "missing_data": [
+          "Real price specialist output not tested."
+        ],
+        "limitations": [
+          "Synthetic fixture for assembly testing only."
+        ]
+      },
+      "financials": {
+        "findings": [
+          "SYNTHETIC financial interface fixture; not real financial analysis."
+        ],
+        "source_ids": [
+          "SYNTHETIC_FINANCIAL_SOURCE"
+        ],
+        "dates_units": [],
+        "missing_data": [
+          "Real financial specialist output not tested."
+        ],
+        "limitations": [
+          "Synthetic fixture for assembly testing only."
+        ]
+      }
+    },
+    "all_source_ids": [
+      "AAPL_39f841ae14",
+      "AAPL_a9c90e3697",
+      "AAPL_a7f18f79cb",
+      "AAPL_4f987aa847",
+      "AAPL_b6fb9a66d5",
+      "SYNTHETIC_PRICE_SOURCE",
+      "SYNTHETIC_FINANCIAL_SOURCE"
+    ],
+    "limitations": [
+      "The evidence provided is from Apple Newsroom, which may have a source bias towards Apple products.",
+      "The claims are based on Apple's own announcements and may not be independently verified.",
+      "The information is not updated beyond the provided 'updated_at' dates, which may not reflect the most current status.",
+      "Original news run status: needs_manual_review.",
+      "This adapter maps existing results; it does not verify facts, correct omissions, or establish that citations support every word.",
+      "Publication and update timestamps are source metadata, not verified event dates.",
+      "Synthetic fixture for assembly testing only.",
+      "Synthetic fixture for assembly testing only."
+    ],
+    "missing_data": [
+      "AAPL_39f841ae14: publication date unavailable.",
+      "AAPL_39f841ae14: evidence is summary; full article not supplied as evidence.",
+      "AAPL_a9c90e3697: publication date unavailable.",
+      "AAPL_a9c90e3697: evidence is summary; full article not supplied as evidence.",
+      "AAPL_a7f18f79cb: publication date unavailable.",
+      "AAPL_a7f18f79cb: evidence is summary; full article not supplied as evidence.",
+      "AAPL_4f987aa847: publication date unavailable.",
+      "AAPL_4f987aa847: evidence is summary; full article not supplied as evidence.",
+      "AAPL_b6fb9a66d5: publication date unavailable.",
+      "AAPL_b6fb9a66d5: evidence is summary; full article not supplied as evidence.",
+      "Structured event dates, reporting periods, metrics, numeric values and units have not been mapped; do not infer them from prose.",
+      "Real price specialist output not tested.",
+      "Real financial specialist output not tested."
+    ]
+  }
+}
