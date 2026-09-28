@@ -1,9 +1,4 @@
-"""Map a saved news chain into the existing five-field specialist contract.
-
-Findings contain structured evidence and source links. This nested format is
-an integration proposal; downstream renderers must support it explicitly.
-No model loading, network requests, or new factual extraction occur here.
-"""
+"""Convert news-chain results to the specialist report format."""
 from copy import deepcopy
 
 if __package__:
@@ -13,7 +8,6 @@ else:
 
 
 def unique(values):
-    """Preserve order while removing duplicates."""
     return list(dict.fromkeys(values))
 
 
