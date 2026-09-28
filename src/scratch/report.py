@@ -28,24 +28,8 @@ def assemble_report(specialist_results):
 
 
 def run_news_chain(records, llm=None):
-
-    source_ids = [r.get("article_id") for r in records]
-    return {
-        "stages": {
-            "ingest": records,
-            "preprocess": None,
-            "classify": None,
-            "extract": None,
-            "summarize": None,
-        },
-        "claims": [],
-        "summary": "",
-        "trace": [
-            {
-                "stage": "ingest",
-                "count": len(records),
-                "source_ids": source_ids,
-            }
-        ],
-        "status": "stub",
-    }
+    if __package__:
+        from .news_pipeline import run_news_chain as run_pipeline
+    else:
+        from news_pipeline import run_news_chain as run_pipeline
+    return run_pipeline(records, llm=llm)

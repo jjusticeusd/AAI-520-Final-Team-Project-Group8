@@ -75,6 +75,7 @@ src/
   investment_research_agent.ipynb   the graded deliverable
   scratch/                          per-person working files (.py) and tests, not submitted
 data/                               cached yfinance responses, committed so runs are reproducible
+  demo/                             fixed news test inputs, outputs, and review records
 schedule.md                         week-by-week task plan and deadlines
 init.sh                             first-time environment setup
 ```
@@ -101,3 +102,26 @@ uv run python src/scratch/assemble_notebook.py   # emit paste-ready notebook cel
   on the final submission run.
 
 Python follows PEP 8.
+
+## News baseline
+
+The five-article Colab baseline is available in
+[Phi3_Colab_Benchmark_AAPL_v3.ipynb](src/scratch/Phi3_Colab_Benchmark_AAPL_v3.ipynb).
+
+Saved files:
+- [Input snapshot](data/demo/aapl_news_snapshot_01.json)
+- [Run results](data/demo/news_chain_results.json)
+- [Review worksheet](data/demo/manual_review.csv)
+
+To reproduce:
+1. Open the notebook in a fresh Colab GPU runtime. Run sections 1–2,
+   then section 8.
+2. Upload the input snapshot to
+   `/content/pwang_news/aapl_news_snapshot_01.json` before running section 9.
+3. Run sections 9–12 with `RUN_LIMIT = 5`.
+4. Run section 13 to download results. Keep new outputs separate from
+   the saved baseline and clear notebook outputs before committing.
+
+The inputs are Apple Newsroom summaries. Results remain
+`needs_manual_review`; known omissions and validation details are
+recorded in the saved results and review worksheet.
