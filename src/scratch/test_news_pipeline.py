@@ -1,9 +1,4 @@
-"""Offline integration checks with explicitly synthetic model responses.
-
-Run: python src/scratch/test_news_pipeline.py
-No model, GPU, external data, or network is required. These checks verify
-software behavior, not the factual quality of a model's generated analysis.
-"""
+"""Offline tests using synthetic model responses."""
 
 from contextlib import ExitStack
 from copy import deepcopy
