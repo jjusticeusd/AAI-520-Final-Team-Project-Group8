@@ -1,12 +1,3 @@
-"""Report assembly scaffolding (2.10).
-
-Defines the common specialist result structure, a report assembler that
-preserves source links across specialists, and the ``run_news_chain`` seam that
-Peng's real prompt chain plugs into (schedule L108). Until then it runs as a
-labelled stub so the integration path is testable end to end.
-"""
-
-
 def specialist_result(findings, source_ids, dates_units=None,
                       missing_data=None, limitations=None):
     return {
@@ -37,12 +28,7 @@ def assemble_report(specialist_results):
 
 
 def run_news_chain(records, llm=None):
-    """Ingest -> Preprocess -> Classify -> Extract -> Summarize (WP1).
 
-    Stub seam: returns the agreed contract shape so the router and report
-    assembler can integrate against it now. Peng's implementation replaces
-    this.
-    """
     source_ids = [r.get("article_id") for r in records]
     return {
         "stages": {
