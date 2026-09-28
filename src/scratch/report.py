@@ -33,3 +33,4 @@ def run_news_chain(records, llm=None):
     else:
         from news_pipeline import run_news_chain as run_pipeline
     return run_pipeline(records, llm=llm)
+  
