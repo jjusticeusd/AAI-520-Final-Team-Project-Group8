@@ -2,8 +2,8 @@
 
 Defines the common specialist result structure, a report assembler that
 preserves source links across specialists, and the ``run_news_chain`` seam that
-Peng's real prompt chain plugs into (schedule L108). Until then it runs as a
-labelled stub so the integration path is testable end to end.
+Peng's real prompt chain plugs into (schedule L108). The news entry point
+delegates to news_pipeline.py; model-generated findings still need review.
 """
 
 
@@ -37,29 +37,9 @@ def assemble_report(specialist_results):
 
 
 def run_news_chain(records, llm=None):
-    """Ingest -> Preprocess -> Classify -> Extract -> Summarize (WP1).
-
-    Stub seam: returns the agreed contract shape so the router and report
-    assembler can integrate against it now. Peng's implementation replaces
-    this.
-    """
-    source_ids = [r.get("article_id") for r in records]
-    return {
-        "stages": {
-            "ingest": records,
-            "preprocess": None,
-            "classify": None,
-            "extract": None,
-            "summarize": None,
-        },
-        "claims": [],
-        "summary": "",
-        "trace": [
-            {
-                "stage": "ingest",
-                "count": len(records),
-                "source_ids": source_ids,
-            }
-        ],
-        "status": "stub",
-    }
+    """Run the news pipeline."""
+    if __package__:
+        from .news_pipeline import run_news_chain as run_pipeline
+    else:
+        from news_pipeline import run_news_chain as run_pipeline
+    return run_pipeline(records, llm=llm)
