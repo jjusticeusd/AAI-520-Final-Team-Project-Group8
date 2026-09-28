@@ -1,14 +1,4 @@
-"""Peng's five-stage news chain, migrated from the Colab baseline.
-
-Input: normalized records from tools.get_news(), or a saved baseline's records.
-Output: the run_news_chain contract in report.py, with detailed audit records.
-Importing this module does not load a model or fetch news. A supplied
-callback must accept prompt, max_new_tokens, temperature, and system,
-and return a string. Otherwise, shared llm.py is used.
-
-This migration retains the baseline prompts and schemas. Sentiment, richer
-financial fields, factual evaluation, and coverage improvements remain pending.
-"""
+"""Preprocess, classify, extract, and summarize news."""
 
 from copy import deepcopy
 from datetime import datetime
