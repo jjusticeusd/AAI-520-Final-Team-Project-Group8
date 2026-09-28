@@ -37,7 +37,7 @@ def assemble_report(specialist_results):
 
 
 def run_news_chain(records, llm=None):
-    """Delegate the five-stage news chain to Peng's implementation."""
+    """Run the news pipeline."""
     if __package__:
         from .news_pipeline import run_news_chain as run_pipeline
     else:
