@@ -7,7 +7,7 @@ research steps, calls tools to gather market data and news, drafts an analysis,
 critiques that draft, and refines it. Notes from each run are kept so later runs
 on the same symbol start better informed.
 
-Everything runs locally. No API keys, no paid services.
+Everything runs locally. No paid services.
 
 ## What it demonstrates
 
@@ -29,11 +29,12 @@ Everything runs locally. No API keys, no paid services.
 | Piece | Choice |
 | --- | --- |
 | Language model | `microsoft/Phi-3-mini-4k-instruct`, run locally via Hugging Face `transformers` |
-| Sentiment | BERT sentiment `pipeline` |
-| Entity extraction | spaCy NER and PoS tagging |
-| Retrieval | `all-MiniLM-L6-v2` embeddings in a FAISS index |
-| Market data | Yahoo Finance via `yfinance` |
+| Retrieval | `all-MiniLM-L6-v2` embeddings via `sentence-transformers` |
+| Market data and news | Yahoo Finance via `yfinance` |
+| Metrics and plots | `pandas`, `matplotlib` |
 | Environment | Python 3.13, managed by `uv` |
+
+Phi-3-mini needs Apple silicon (MPS) or a CUDA GPU; CPU is too slow to use.
 
 ## Setup
 
@@ -46,82 +47,52 @@ Requires macOS or Linux. Run once after cloning:
 That installs `uv` if missing, then builds `.venv` from `pyproject.toml` and
 `uv.lock` so every teammate gets identical versions.
 
-The spaCy `en_core_web_sm` model is pinned in `pyproject.toml` and installed by
-`uv sync`, so no separate download is needed. The NLTK data sets are downloaded
-at runtime and are not covered by `uv sync`, so fetch them once:
+The first run downloads the Phi-3-mini weights, roughly 7.6 GB, into
+`~/.cache/huggingface`. That happens once. Optionally put a Hugging Face token
+in `.env` as `HF_TOKEN=...` (gitignored) and pass `--env-file .env` to
+`uv run` to avoid unauthenticated-download warnings.
+
+## Running
+
+The agent on one ticker, and the full demonstration of every requirement:
 
 ```bash
-uv run python -c "import nltk; [nltk.download(p) for p in ('punkt_tab','averaged_perceptron_tagger_eng','stopwords','wordnet')]"
+uv run --env-file .env python src/scratch/agent.py AAPL
+uv run --env-file .env python src/scratch/demo.py    # about 15-20 min
 ```
 
-The first notebook run also downloads the Phi-3-mini weights, roughly 7.6 GB,
-into `~/.cache/huggingface`. That happens once.
+`demo.py` runs AAPL twice from fresh memory (learning across runs), then TSLA,
+which has no local cache (live tool calls), plus a labeled weak-draft example of
+the evaluator-optimizer loop. Plots are written to `evidence/`.
 
-## Running the notebook
-
-Open `src/investment_research_agent.ipynb` and select the `./.venv/bin/python`
-interpreter. In VS Code that is the interpreter picker at the top right.
-
-For Jupyter Lab in the browser instead:
-
-```bash
-uv run --with jupyter jupyter lab
-```
+The notebook: open `src/investment_research_agent.ipynb` and select the
+`./.venv/bin/python` interpreter, or run `uv run --with jupyter jupyter lab`.
 
 ## Layout
 
 ```
 src/
   investment_research_agent.ipynb   the graded deliverable
-  scratch/                          per-person working files (.py) and tests, not submitted
+  scratch/                          working .py modules and tests, assembled into the notebook
 data/                               cached yfinance responses, committed so runs are reproducible
-  demo/                             fixed news test inputs, outputs, and review records
-schedule.md                         week-by-week task plan and deadlines
+  demo/                             pwang's WP1 news prototype inputs, outputs, and review records
+  memory.json                       agent lessons across runs (runtime, gitignored)
+evidence/                           plots from demo runs
+schedule.md                         task plan, status, and deadlines
 init.sh                             first-time environment setup
 ```
 
 ## Development
 
-Component logic is built as plain `.py` files in `src/scratch/` so it can be unit
-tested, then assembled into the notebook for submission:
-
 ```bash
-uv run pytest src/scratch/                       # unit tests (no model, no network)
-uv run python src/scratch/smoke_llm.py           # manual LLM check (loads the model)
-uv run python src/scratch/assemble_notebook.py   # emit paste-ready notebook cells
+uv run pytest src/scratch/     # unit tests (fake LLM, no network)
+./check_pep8.sh                # PEP 8 check, also run in CI
 ```
 
-## Contributing
+`schedule.md` holds the task plan, deadlines, owners, and current status. Only
+one person edits `investment_research_agent.ipynb` at a time; the JSON merge
+conflicts are otherwise unresolvable. Run **Restart and Clear All Outputs**
+before committing it, except for the final submission run.
 
-`schedule.md` holds the task plan, deadlines, and owners. Two rules matter:
-
-- Develop in your own `src/scratch/` files. Only one person edits
-  `investment_research_agent.ipynb` at a time, otherwise the JSON merge
-  conflicts are unresolvable.
-- Run **Restart and Clear All Outputs** before committing. Outputs are kept only
-  on the final submission run.
-
-Python follows PEP 8.
-
-## News baseline
-
-The five-article Colab baseline is available in
-[Phi3_Colab_Benchmark_AAPL_v3.ipynb](src/scratch/Phi3_Colab_Benchmark_AAPL_v3.ipynb).
-
-Saved files:
-- [Input snapshot](data/demo/aapl_news_snapshot_01.json)
-- [Run results](data/demo/news_chain_results.json)
-- [Review worksheet](data/demo/manual_review.csv)
-
-To reproduce:
-1. Open the notebook in a fresh Colab GPU runtime. Run sections 1–2,
-   then section 8.
-2. Upload the input snapshot to
-   `/content/pwang_news/aapl_news_snapshot_01.json` before running section 9.
-3. Run sections 9–12 with `RUN_LIMIT = 5`.
-4. Run section 13 to download results. Keep new outputs separate from
-   the saved baseline and clear notebook outputs before committing.
-
-The inputs are Apple Newsroom summaries. Results remain
-`needs_manual_review`; known omissions and validation details are
-recorded in the saved results and review worksheet.
+pwang's original WP1 prototype (`news_pipeline.py`, `news_report_adapter.py`)
+and the Colab benchmark notebook remain in `src/scratch/` for reference.

@@ -78,10 +78,3 @@ def test_assemble_report_preserves_source_links():
     rep = report.assemble_report(specialists)
     assert set(rep["sections"]) == {"news", "market"}
     assert set(rep["all_source_ids"]) == {"a1", "a2", "p1"}
-
-
-def test_run_news_chain_stub_contract():
-    records = tools.get_news(TICKER)
-    out = report.run_news_chain(records, llm=None)
-    assert set(out) >= {"stages", "claims", "summary", "trace", "status"}
-    assert out["status"] == "stub"
