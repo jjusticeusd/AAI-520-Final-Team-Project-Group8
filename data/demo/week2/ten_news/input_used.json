@@ -1,0 +1,127 @@
+{
+  "ticker": "AAPL",
+  "input_source": "committed_cache",
+  "records": [
+    {
+      "article_id": "c3b884fd-fca1-39ea-a847-4f977546401b",
+      "ticker": "AAPL",
+      "source": "Trefis",
+      "url": "https://www.trefis.com/articles/615541/did-ai-servers-really-quadruple-dell-stock/2026-09-16",
+      "published_at": "2026-09-17T01:01:09Z",
+      "retrieved_at": null,
+      "title": "Did AI Servers Really Quadruple Dell Stock?",
+      "text": "Dell Technologies (DELL) stock has returned 334% over the past year, against 16% for the S&P 500. The easy explanation is AI orders, but it is incomplete. The bigger change is what happened to the rest of Dell.",
+      "text_type": "summary"
+    },
+    {
+      "article_id": "0e4b4b61-05d6-363f-904f-92d88c43735a",
+      "ticker": "AAPL",
+      "source": "Reuters",
+      "url": "https://finance.yahoo.com/technology/ai/articles/snap-targets-enterprises-salesforce-nvidia-234512914.html",
+      "published_at": "2026-09-16T23:45:12Z",
+      "retrieved_at": null,
+      "title": "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses",
+      "text": "Sept 16 (Reuters) - Snap on Wednesday announced partnerships with companies including Salesforce, Nvidia and Amazon Web Services to integrate workplace tools into its Specs augmented-reality glasses,",
+      "text_type": "summary"
+    },
+    {
+      "article_id": "0bbeb01d-27ca-31bf-a84e-e28460eb4341",
+      "ticker": "AAPL",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-inch-higher-as-investors-digest-first-rate-hike-since-2023-intc-googl-aapl-skhy-ual-in-focus/cZtYUJsRBPu",
+      "published_at": "2026-09-16T23:29:42Z",
+      "retrieved_at": null,
+      "title": "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Digest First Rate Hike Since 2023 — INTC, GOOGL, AAPL, SKHY, UAL In Focus",
+      "text": "The U.S. Fed hiked rates by 25 basis points to 3.75%-4%.",
+      "text_type": "summary"
+    },
+    {
+      "article_id": "ebf656ea-14f8-3cb6-8ed4-56e40670652f",
+      "ticker": "AAPL",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/this-analyst-sees-intc-stock-hitting-200-in-two-years-that-s-a-106-upside/cZtYtKFRBPp",
+      "published_at": "2026-09-16T20:30:50Z",
+      "retrieved_at": null,
+      "title": "This Analyst Sees INTC Stock Hitting $200 In Two Years — That’s A 106% Upside",
+      "text": "Intel shares could double within two years, driven by potential manufacturing partnerships with tech giants and strong demand for AI chips.",
+      "text_type": "summary"
+    },
+    {
+      "article_id": "6fbdd134-f08f-3f50-a9ca-6ad473caab32",
+      "ticker": "AAPL",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-may-build-ai-servers-202139274.html",
+      "published_at": "2026-09-16T20:21:39Z",
+      "retrieved_at": null,
+      "title": "Apple may build AI servers with its own chips and Nvidia networking",
+      "text": "A reported server project could push Apple's in-house silicon beyond its own devices and into enterprise computing.",
+      "text_type": "summary"
+    },
+    {
+      "article_id": "1dbadf2b-3fe0-3340-b8bd-26e60da3e5a2",
+      "ticker": "AAPL",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-talks-nvidia-nvlink-own-202058186.html",
+      "published_at": "2026-09-16T20:20:58Z",
+      "retrieved_at": null,
+      "title": "Apple Talks to Nvidia About NVLink for Its Own AI Server",
+      "text": "Apple is weighing two configurations, pairing two or four M8 Ultra chips",
+      "text_type": "summary"
+    },
+    {
+      "article_id": "aa2f610a-9207-35d2-a2ba-2e8b2d3d92db",
+      "ticker": "AAPL",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/09/16/my-step-by-step-system-for-researching-stocks/",
+      "published_at": "2026-09-16T19:57:00Z",
+      "retrieved_at": null,
+      "title": "I've Analyzed Hundreds of Stocks in 7 Years. Here's My Step-by-Step System for Researching Any Company Before Buying.",
+      "text": "I've been refining my investing process for years, and this is what I do right now.",
+      "text_type": "summary"
+    },
+    {
+      "article_id": "456b098e-93e7-3237-9bae-1efc9dd4b43c",
+      "ticker": "AAPL",
+      "source": "MT Newswires",
+      "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-mixed-afternoon-195324220.html",
+      "published_at": "2026-09-16T19:53:24Z",
+      "retrieved_at": null,
+      "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+      "text": "Tech stocks were mixed late Wednesday afternoon, with the State Street Technology Select Sector SPDR",
+      "text_type": "summary"
+    },
+    {
+      "article_id": "3814e01c-4f93-300f-8908-2c8f44c6d33c",
+      "ticker": "AAPL",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/etf/2026/09/16/the-75000-retirement-budget-that-jepq-may-struggle-to-support-in-10-years/",
+      "published_at": "2026-09-16T19:30:21Z",
+      "retrieved_at": null,
+      "title": "The $75,000 Retirement Budget That JEPQ May Struggle to Support in 10 Years",
+      "text": "A $700,000 JEPQ position clears a $75,000 retirement budget today, but inflation-adjusted withdrawals over a decade expose a flaw baked into the fund's design that monthly distributions alone cannot fix.",
+      "text_type": "summary"
+    },
+    {
+      "article_id": "4901ca87-fb0e-3bd4-be13-40fbcb31a775",
+      "ticker": "AAPL",
+      "source": "Trefis",
+      "url": "https://www.trefis.com/articles/615530/should-you-buy-qualcomm-stock-for-the-cash-as-apple-leaves/2026-09-16",
+      "published_at": "2026-09-16T19:30:04Z",
+      "retrieved_at": null,
+      "title": "Should You Buy Qualcomm Stock For The Cash As Apple Leaves?",
+      "text": "Qualcomm (QCOM) throws off free cash worth 5.2% of its market value each year, against 4.4% for the median S&P 500 company. A yield above the median means one of two things: a bargain or a business the market expects to shrink. Here it is mostly the second: the cash comes from smartphone chips, and Apple is leaving.",
+      "text_type": "summary"
+    }
+  ],
+  "records_sha256": "169bbe29e4ab6d928d1dec7ff0de80d7053c278a829c0c9b1f2aad6f4e398979",
+  "original_input_metadata": {
+    "input_mode": "committed_cache",
+    "requested_limit": 10,
+    "available_records": 10,
+    "selected_records": 10,
+    "selected_original_records_sha256": "169bbe29e4ab6d928d1dec7ff0de80d7053c278a829c0c9b1f2aad6f4e398979",
+    "input_file": "AAPL_news.json",
+    "input_file_sha256": "f1b0c8037d628f580acb5e81a80f5848d3c4bc1df1274dd80bfba13a1c39c134",
+    "selection": "first RUN_LIMIT records in source order"
+  }
+}

@@ -1,12 +1,3 @@
-"""Report assembly scaffolding (2.10).
-
-Defines the common specialist result structure, a report assembler that
-preserves source links across specialists, and the ``run_news_chain`` seam that
-Peng's real prompt chain plugs into (schedule L108). The news entry point
-delegates to news_pipeline.py; model-generated findings still need review.
-"""
-
-
 def specialist_result(findings, source_ids, dates_units=None,
                       missing_data=None, limitations=None):
     return {
@@ -37,7 +28,6 @@ def assemble_report(specialist_results):
 
 
 def run_news_chain(records, llm=None):
-    """Run the news pipeline."""
     if __package__:
         from .news_pipeline import run_news_chain as run_pipeline
     else:

@@ -1,0 +1,19 @@
+{
+  "comparison": {
+    "current": {
+      "status": "needs_review",
+      "claims": 4,
+      "calls": 18,
+      "strict_json_valid": 4,
+      "schema_valid": 12,
+      "errors_all_attempts": 6,
+      "unresolved_errors": 2,
+      "normalized_attempts": 4,
+      "recovered_attempts": 4,
+      "articles_with_claims": 3
+    },
+    "baseline": null
+  },
+  "phrase_probes": [],
+  "manual_review_status": "pending"
+}

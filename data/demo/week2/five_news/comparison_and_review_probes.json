@@ -1,0 +1,38 @@
+{
+  "comparison": {
+    "current": {
+      "status": "needs_review",
+      "claims": 4,
+      "calls": 24,
+      "strict_json_valid": 5,
+      "schema_valid": 14,
+      "errors_all_attempts": 10,
+      "unresolved_errors": 6,
+      "normalized_attempts": 6,
+      "recovered_attempts": 4,
+      "articles_with_claims": 4
+    },
+    "baseline": null
+  },
+  "phrase_probes": [
+    {
+      "issue": "Music Hall opening",
+      "phrases_in_claims": true,
+      "phrases_in_summary": true,
+      "manual_review": "pending; phrase presence is not semantic support"
+    },
+    {
+      "issue": "Watch coverage",
+      "phrases_in_claims": true,
+      "phrases_in_summary": true,
+      "manual_review": "pending; phrase presence is not semantic support"
+    },
+    {
+      "issue": "AirPods coverage",
+      "phrases_in_claims": true,
+      "phrases_in_summary": true,
+      "manual_review": "pending; phrase presence is not semantic support"
+    }
+  ],
+  "manual_review_status": "pending"
+}
