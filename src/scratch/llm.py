@@ -4,6 +4,7 @@ One place to load Phi-3-mini and generate text, so every agent function and
 workflow calls the same helper with the same settings and error handling.
 """
 
+import json
 import logging
 
 MODEL_ID = "microsoft/Phi-3-mini-4k-instruct"
@@ -76,3 +77,30 @@ def llm(prompt, max_new_tokens=512, temperature=0.7, system=None):
         raise RuntimeError(
             f"llm() generation failed on device={_device}: {e}"
         ) from e
+
+
+def parse_json(text):
+    starts = [i for i in (text.find("{"), text.find("[")) if i >= 0]
+    if not starts:
+        raise ValueError("no JSON object in response")
+    obj, _ = json.JSONDecoder().raw_decode(text[min(starts):])
+    return obj
+
+
+def llm_json(prompt, system, max_new_tokens=512, validate=None):
+    request = prompt
+    for _ in range(2):
+        raw = llm(request, max_new_tokens=max_new_tokens, temperature=0,
+                  system=system)
+        try:
+            obj = parse_json(raw)
+            if validate:
+                validate(obj)
+            return obj
+        except (ValueError, KeyError, TypeError, AttributeError) as e:
+            error = e
+            request = (
+                f"{prompt}\n\nYour previous reply was rejected: {e}. "
+                "Return only corrected JSON."
+            )
+    raise ValueError(f"invalid JSON after retry: {error}")
