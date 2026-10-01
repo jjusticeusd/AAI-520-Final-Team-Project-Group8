@@ -54,30 +54,28 @@ in `.env` as `HF_TOKEN=...` (gitignored) and pass `--env-file .env` to
 
 ## Running
 
-The agent on one ticker, and the full demonstration of every requirement:
+Open `src/investment_research_agent.ipynb`, select the `./.venv/bin/python`
+interpreter (or run `uv run --with jupyter jupyter lab`), and run all cells.
+A full run takes about 15-20 minutes on Apple silicon. It runs AAPL twice from
+empty memory (learning across runs), then TSLA, which has no local cache (live
+tool calls), plus a labeled weak-draft example of the evaluator-optimizer loop.
+Running it writes agent lessons to `data/memory.json`.
+
+Export the executed notebook to HTML:
 
 ```bash
-uv run --env-file .env python src/scratch/agent.py AAPL
-uv run --env-file .env python src/scratch/demo.py    # about 15-20 min
+uv run --with nbconvert jupyter nbconvert --to html src/investment_research_agent.ipynb
 ```
-
-`demo.py` runs AAPL twice from fresh memory (learning across runs), then TSLA,
-which has no local cache (live tool calls), plus a labeled weak-draft example of
-the evaluator-optimizer loop. Plots are written to `evidence/`.
-
-The notebook: open `src/investment_research_agent.ipynb` and select the
-`./.venv/bin/python` interpreter, or run `uv run --with jupyter jupyter lab`.
 
 ## Layout
 
 ```
 src/
   investment_research_agent.ipynb   the graded deliverable
-  scratch/                          working .py modules and tests, assembled into the notebook
+  scratch/                          early foundation modules, tests, and pwang's WP1 prototype
 data/                               cached yfinance responses, committed so runs are reproducible
   demo/                             pwang's WP1 news prototype inputs, outputs, and review records
   memory.json                       agent lessons across runs (runtime, gitignored)
-evidence/                           plots from demo runs
 schedule.md                         task plan, status, and deadlines
 init.sh                             first-time environment setup
 ```
@@ -85,7 +83,7 @@ init.sh                             first-time environment setup
 ## Development
 
 ```bash
-uv run pytest src/scratch/     # unit tests (fake LLM, no network)
+uv run pytest src/scratch/     # unit tests for the scratch modules
 ./check_pep8.sh                # PEP 8 check, also run in CI
 ```
 
