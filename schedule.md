@@ -62,8 +62,8 @@ All seven required behaviors are implemented in the graded notebook, `src/invest
 
 | Requirement | Notebook section |
 | --- | --- |
-| Agent Function 1: plans | Planner; plan table in each run |
-| Agent Function 2: uses tools dynamically | Tools; tool-call tables; TSLA runs on live yfinance with no cache |
+| Agent Function 1: plans | Planner; plan table in each run, including the follow-up step where the Planner reviews tool results and re-plans |
+| Agent Function 2: uses tools dynamically | Tools; tool-call and retrieval tables; TSLA runs on live yfinance with no cache |
 | Agent Function 3: self-reflects | Self-review loop; scores, issues and feedback per draft |
 | Agent Function 4: learns across runs | Memory; Run 2 loads Run 1's lessons; before/after plan table |
 | Workflow Pattern 1: prompt chaining | News chain; classify and extract tables and the summary in each run |
@@ -86,8 +86,7 @@ Confirm 1.8, 2.8, 2.9 were submitted.
 | # | Task | Owner |
 | --- | --- | --- |
 | R1 | Supplemental report (PDF/Word): Agent Design and Workflows, Agent Functions and Capabilities, Evaluation and Iteration; submit it alongside the notebook | pwang |
-| R2 | Decide whether to drop the unused `spacy`, `en-core-web-sm`, `nltk`, and `faiss-cpu` dependencies from `pyproject.toml` | Both |
-| R3 | Code freeze Oct 16; restart and run all; export HTML or PDF; check it end to end; submit (5.9–5.13) | Both |
+| R2 | Code freeze Oct 16; restart and run all; export HTML or PDF; check it end to end; submit (5.9–5.13) | Both |
 
 ---
 
