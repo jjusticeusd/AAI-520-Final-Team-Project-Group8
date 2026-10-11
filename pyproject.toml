@@ -4,20 +4,13 @@ version = "0.1.0"
 requires-python = ">=3.13,<3.14"
 dependencies = [
     "accelerate",
-    "en-core-web-sm",
-    "faiss-cpu",
     "matplotlib",
-    "nltk",
     "pandas",
     "sentence-transformers",
-    "spacy",
     "torch",
     "transformers",
     "yfinance",
 ]
 
 [dependency-groups]
-dev = ["ipykernel", "pytest"]
-
-[tool.uv.sources]
-en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
+dev = ["ipykernel", "ipywidgets", "pytest"]
