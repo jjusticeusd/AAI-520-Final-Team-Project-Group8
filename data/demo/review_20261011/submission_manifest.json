@@ -1,0 +1,71 @@
+{
+  "prepared_on": "2026-10-11",
+  "source_notebook": {
+    "name": "investment_research_agent_V0_Jason_added_review_v3_2_rerun_al (1).ipynb",
+    "sha256": "acd0acca9e3e00d3bcd060fe557ecfd35a1d0cb473ac57ac3881ffe904062d8b"
+  },
+  "original_reference_notebook": {
+    "name": "investment_research_agent_v0_Jason.ipynb",
+    "sha256": "0a97693215c953a56dd0f6160a3eebba17e5c6f4c12ca14ff516dad5a3d0b7d8",
+    "used_for": "Static code comparison and historical saved-results review; not a controlled comparison"
+  },
+  "included_files": [
+    {
+      "path": "data/demo/review_20261011/README.md",
+      "size_bytes": 10154,
+      "sha256": "b975f0e0a9ba6bb889049e50cf560ebe8174889613cb3c84e6ff9d65e7933bee"
+    },
+    {
+      "path": "data/demo/review_20261011/investment_research_agent_review_executed.ipynb",
+      "size_bytes": 850828,
+      "sha256": "b46e42c6f3fc37fedb271911964551a5a807f0699c2b935b01239e81d3785c29"
+    },
+    {
+      "path": "data/demo/review_20261011/offline_validation.json",
+      "size_bytes": 2308,
+      "sha256": "8c638f2494a37acd9f38bd8278312dca3287f636164fc3ecf46903670aa63b5d"
+    },
+    {
+      "path": "src/scratch/investment_research_agent_review.ipynb",
+      "size_bytes": 157518,
+      "sha256": "4ab10837b2cb41baf3dd5b49043bcf597cd908658df5c0a234317c92f310e82f"
+    }
+  ],
+  "external_colab_bundles_not_included": [
+    {
+      "example": "AAPL Run 1",
+      "path": "/content/data/aapl_review_20261011T164604153696Z.zip"
+    },
+    {
+      "example": "AAPL Run 2",
+      "path": "/content/data/aapl_review_20261011T165140947257Z.zip"
+    },
+    {
+      "example": "TSLA original",
+      "path": "/content/data/tsla_review_20261011T165624485162Z.zip"
+    },
+    {
+      "example": "Seeded weak draft",
+      "path": "/content/data/aapl_review_20261011T165849637550Z.zip"
+    },
+    {
+      "example": "TSLA frozen replay",
+      "path": "/content/data/frozen_review_20261011T172130156960Z.zip"
+    }
+  ],
+  "additional_files_to_preserve": [
+    "Latest /content/data/memory_review.json",
+    "Completed human-review CSV with its matching baseline and imported result JSON",
+    "Exact original AAPL cache trio for full research reproduction, if required"
+  ],
+  "translation_notes": [
+    "All Chinese source markdown translated; code comments already English",
+    "Saved outputs and code cells preserved exactly in executed copy",
+    "Clean copy changes only run controls/replay paths in executable code",
+    "Stale markdown updated against recorded outputs; no report or score rewritten"
+  ],
+  "model_inference_performed_during_delivery": false,
+  "external_artifacts_reconstructed_from_displayed_output": false,
+  "github_pr_created": false,
+  "path_note": "Proposed scratch/demo layout; current remote repository tree not inspected"
+}
