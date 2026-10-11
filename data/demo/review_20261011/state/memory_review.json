@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "symbols": {
+    "AAPL": [
+      {
+        "lesson_id": "8ffd3577961ff8418eb1",
+        "text": "rag_query: ask about Apple's potential AI server development because the headlines suggest significant investment and strategic partnership with Nvidia, which could impact the company's future growth and market position.",
+        "status": "rejected",
+        "origin": "model_proposal",
+        "contexts": [
+          {
+            "evidence_sha256": "490417e2addf050b9f915523d20c781b2c4e161acc4cba50662e7108622c995b",
+            "automated_status": "passed",
+            "available_tools": [
+              "get_prices",
+              "get_financials",
+              "get_news",
+              "rag_query"
+            ],
+            "tool_calls": [
+              "get_prices(period=1y)",
+              "get_financials()",
+              "get_news()",
+              "rag_query(query=What are the recent developments in Apple's supply chain?)"
+            ],
+            "source_headlines": [
+              "Did AI Servers Really Quadruple Dell Stock?",
+              "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses",
+              "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Digest First Rate Hike Since 2023 — INTC, GOOGL, AAPL, SKHY, UAL In Focus",
+              "This Analyst Sees INTC Stock Hitting $200 In Two Years — That’s A 106% Upside",
+              "Apple may build AI servers with its own chips and Nvidia networking",
+              "Apple Talks to Nvidia About NVLink for Its Own AI Server",
+              "I've Analyzed Hundreds of Stocks in 7 Years. Here's My Step-by-Step System for Researching Any Company Before Buying.",
+              "Sector Update: Tech Stocks Mixed Late Afternoon",
+              "The $75,000 Retirement Budget That JEPQ May Struggle to Support in 10 Years",
+              "Should You Buy Qualcomm Stock For The Cash As Apple Leaves?"
+            ],
+            "review_issues": [
+              "No evidence of balance sheet.",
+              "Limited news article analysis.",
+              "Uncertainty about the impact of the server project."
+            ]
+          }
+        ],
+        "reviewer": "Peng Wang",
+        "note": "The query about Apple's reported AI server development is relevant, but the saved headlines do not establish significant investment, a strategic partnership with Nvidia, or an effect on future growth. Reject this lesson as written because its rationale overstates the evidence.",
+        "evidence_checked": true,
+        "tool_capability_checked": true,
+        "reviewed_at": "2026-10-10T16:08:24.441452+00:00"
+      },
+      {
+        "lesson_id": "00195bb42f611342fc45",
+        "text": "rag_query: ask about Apple's potential to build AI servers with its own chips and Nvidia networking because this could indicate a strategic move towards self-reliance in AI technology, which may affect its competitive edge and market position.",
+        "status": "pending",
+        "origin": "model_proposal",
+        "contexts": [
+          {
+            "evidence_sha256": "490417e2addf050b9f915523d20c781b2c4e161acc4cba50662e7108622c995b",
+            "automated_status": "needs_review",
+            "available_tools": [
+              "get_prices",
+              "get_financials",
+              "get_news",
+              "rag_query"
+            ],
+            "tool_calls": [
+              "get_prices(period=1y)",
+              "get_financials()",
+              "get_news()",
+              "rag_query(query=What are the recent developments in Apple's supply chain?)"
+            ],
+            "source_headlines": [
+              "Did AI Servers Really Quadruple Dell Stock?",
+              "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses",
+              "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Digest First Rate Hike Since 2023 — INTC, GOOGL, AAPL, SKHY, UAL In Focus",
+              "This Analyst Sees INTC Stock Hitting $200 In Two Years — That’s A 106% Upside",
+              "Apple may build AI servers with its own chips and Nvidia networking",
+              "Apple Talks to Nvidia About NVLink for Its Own AI Server",
+              "I've Analyzed Hundreds of Stocks in 7 Years. Here's My Step-by-Step System for Researching Any Company Before Buying.",
+              "Sector Update: Tech Stocks Mixed Late Afternoon",
+              "The $75,000 Retirement Budget That JEPQ May Struggle to Support in 10 Years",
+              "Should You Buy Qualcomm Stock For The Cash As Apple Leaves?"
+            ],
+            "review_issues": []
+          }
+        ],
+        "reviewer": "",
+        "note": "",
+        "evidence_checked": false,
+        "tool_capability_checked": false,
+        "reviewed_at": null
+      },
+      {
+        "lesson_id": "0f4a7e7104cf4c25df1f",
+        "text": "rag_query: inquire about Apple's long-term financial health and retirement budget concerns because the mention of a $75,000 retirement budget that may struggle to support in 10 years could imply financial challenges or shifts in investment strategy that are not immediately apparent from the financials alone.",
+        "status": "pending",
+        "origin": "model_proposal",
+        "contexts": [
+          {
+            "evidence_sha256": "490417e2addf050b9f915523d20c781b2c4e161acc4cba50662e7108622c995b",
+            "automated_status": "needs_review",
+            "available_tools": [
+              "get_prices",
+              "get_financials",
+              "get_news",
+              "rag_query"
+            ],
+            "tool_calls": [
+              "get_prices(period=1y)",
+              "get_financials()",
+              "get_news()",
+              "rag_query(query=What are the recent developments in Apple's supply chain?)"
+            ],
+            "source_headlines": [
+              "Did AI Servers Really Quadruple Dell Stock?",
+              "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses",
+              "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Digest First Rate Hike Since 2023 — INTC, GOOGL, AAPL, SKHY, UAL In Focus",
+              "This Analyst Sees INTC Stock Hitting $200 In Two Years — That’s A 106% Upside",
+              "Apple may build AI servers with its own chips and Nvidia networking",
+              "Apple Talks to Nvidia About NVLink for Its Own AI Server",
+              "I've Analyzed Hundreds of Stocks in 7 Years. Here's My Step-by-Step System for Researching Any Company Before Buying.",
+              "Sector Update: Tech Stocks Mixed Late Afternoon",
+              "The $75,000 Retirement Budget That JEPQ May Struggle to Support in 10 Years",
+              "Should You Buy Qualcomm Stock For The Cash As Apple Leaves?"
+            ],
+            "review_issues": []
+          }
+        ],
+        "reviewer": "",
+        "note": "",
+        "evidence_checked": false,
+        "tool_capability_checked": false,
+        "reviewed_at": null
+      }
+    ],
+    "TSLA": [
+      {
+        "lesson_id": "e3ba1c89e31b28a105e3",
+        "text": "rag_query: ask about the impact of Tesla's renaming of the Full Self-Driving package to Assisted Driving in Europe because it could affect market sentiment and investor confidence.",
+        "status": "pending",
+        "origin": "model_proposal",
+        "contexts": [
+          {
+            "evidence_sha256": "d1bf1b39be433f5f2cbc26b548f4d7c21b33080d1e2e9a389a76042552ebcb57",
+            "automated_status": "needs_review",
+            "available_tools": [
+              "get_prices",
+              "get_financials",
+              "get_news",
+              "rag_query"
+            ],
+            "tool_calls": [
+              "get_prices(period=1y)",
+              "get_financials()",
+              "get_news()",
+              "rag_query(query=What are the latest developments in Tesla's electric vehicle technology?)",
+              "rag_query(query=What is the current market sentiment towards Tesla's stock?)"
+            ],
+            "source_headlines": [
+              "EXCLUSIVE: Ross Gerber Says Tesla May Make Just ‘a Few Hundred’ Roadsters: ‘Hovering Is a Gimmick’",
+              "Tesla Drops ‘Full Self-Driving’ Name in Europe as Germany Backs Faster EU Approval for ‘Tesla Assisted Driving’",
+              "Symbotic Has a $22.5 Billion Backlog. Here's Why It Could Be the Best Robotics Stock Nobody Talks About.",
+              "Tesla Renames Full Self-Driving Package to Assisted Driving Across Europe",
+              "Tesla rival appears to have a demand problem",
+              "My New Car Costs $47K And The Dealer Is Offering 1.48% Financing. I Know I Should Take The Cheap Money, But I Hate Having Payments",
+              "Tesla China-Made EV Sales Rise 5% in September, Extending Growth Streak To 11 Months Despite Global Sales Slump",
+              "Tesla (TSLA) Deliveries Beat Expectations. But TSLA’s 159x Forward P/E Is Betting on Much More"
+            ],
+            "review_issues": []
+          }
+        ],
+        "reviewer": "",
+        "note": "",
+        "evidence_checked": false,
+        "tool_capability_checked": false,
+        "reviewed_at": null
+      },
+      {
+        "lesson_id": "90af10cd3df9260682be",
+        "text": "rag_query: inquire about the demand issues faced by Tesla's rivals because it might indicate a competitive advantage for Tesla in the electric vehicle market.",
+        "status": "pending",
+        "origin": "model_proposal",
+        "contexts": [
+          {
+            "evidence_sha256": "d1bf1b39be433f5f2cbc26b548f4d7c21b33080d1e2e9a389a76042552ebcb57",
+            "automated_status": "needs_review",
+            "available_tools": [
+              "get_prices",
+              "get_financials",
+              "get_news",
+              "rag_query"
+            ],
+            "tool_calls": [
+              "get_prices(period=1y)",
+              "get_financials()",
+              "get_news()",
+              "rag_query(query=What are the latest developments in Tesla's electric vehicle technology?)",
+              "rag_query(query=What is the current market sentiment towards Tesla's stock?)"
+            ],
+            "source_headlines": [
+              "EXCLUSIVE: Ross Gerber Says Tesla May Make Just ‘a Few Hundred’ Roadsters: ‘Hovering Is a Gimmick’",
+              "Tesla Drops ‘Full Self-Driving’ Name in Europe as Germany Backs Faster EU Approval for ‘Tesla Assisted Driving’",
+              "Symbotic Has a $22.5 Billion Backlog. Here's Why It Could Be the Best Robotics Stock Nobody Talks About.",
+              "Tesla Renames Full Self-Driving Package to Assisted Driving Across Europe",
+              "Tesla rival appears to have a demand problem",
+              "My New Car Costs $47K And The Dealer Is Offering 1.48% Financing. I Know I Should Take The Cheap Money, But I Hate Having Payments",
+              "Tesla China-Made EV Sales Rise 5% in September, Extending Growth Streak To 11 Months Despite Global Sales Slump",
+              "Tesla (TSLA) Deliveries Beat Expectations. But TSLA’s 159x Forward P/E Is Betting on Much More"
+            ],
+            "review_issues": []
+          }
+        ],
+        "reviewer": "",
+        "note": "",
+        "evidence_checked": false,
+        "tool_capability_checked": false,
+        "reviewed_at": null
+      }
+    ]
+  }
+}
