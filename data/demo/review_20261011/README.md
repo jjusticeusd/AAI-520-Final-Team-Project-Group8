@@ -88,6 +88,4 @@ If full AAPL research reproduction is needed, include the exact `AAPL_prices.csv
 4. A later Writer experiment should measure defect removal, preservation of supported content, and remaining human concerns. Two draft slots permit a revision but do not force it. Do not mark an unresolved run passed to obtain a curve.
 5. Submit this as one experimental draft PR on the agreed weekly branch. Keep Jason's production workflow separate until the team agrees which changes to integrate.
 
-## English preparation notes
 
-All Chinese markdown was translated; code comments were already English. Stale result statements were corrected and Added cell navigation markers retained. The clean notebook clears outputs and session/widget metadata, disables all run switches, and clears replay paths. The executed copy preserves every saved output object and every code cell from the supplied notebook. No report text, scores, human verdicts, or Critic/Writer logic were altered during translation.
