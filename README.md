@@ -100,7 +100,7 @@ Challenges:
 ```
 src/
   investment_research_agent.ipynb   the graded deliverable
-  investment_research_agent.html    executed export of the notebook
+  AAI-520_Group8_Final_Project.html executed export of the notebook
   scratch/                          early foundation modules, tests, and pwang's news prototype
 data/                               cached yfinance responses, committed so runs are reproducible
   demo/                             pwang's news prototype inputs, outputs, and review records
